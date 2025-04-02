@@ -17,7 +17,8 @@ public static void main(String[] args){
     hours = minutes / minutes_in_day;
     days = hours / hours_in_day;
 
-    System.out.printf("%d minutes is %f hours or %f days.", minutes, hours , days);
+    // System.out.printf("%d minutes is %f hours or %f days.", minutes, hours , days);
+    System.out.print(minutes + " minutes is " + hours + " hours or " + days +" days.");
 
 
 }
