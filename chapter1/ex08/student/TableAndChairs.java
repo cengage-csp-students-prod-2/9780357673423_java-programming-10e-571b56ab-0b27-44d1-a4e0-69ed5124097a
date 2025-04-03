@@ -1,6 +1,6 @@
 // Write your code here
 
-public class TableAndChair{
+public class TableAndChairs{
     public static void main(String[] args){
 
 
