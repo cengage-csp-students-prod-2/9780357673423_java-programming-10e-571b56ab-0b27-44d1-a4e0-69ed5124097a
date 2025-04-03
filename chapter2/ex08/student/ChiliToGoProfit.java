@@ -1,6 +1,6 @@
 // Write your code here
 import java.util.Scanner;
-public class ChillTOGoProfit{
+public class ChiliTOGoProfit{
 
     public static void main(String[] args){
         double adult, child;

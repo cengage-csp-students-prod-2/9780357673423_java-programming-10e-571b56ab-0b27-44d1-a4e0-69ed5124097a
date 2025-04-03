@@ -1,7 +1,7 @@
 // Write your code here
 // Write your code here
 import java.util.Scanner;
-public class ChillTOGo{
+public class ChiliTOGo{
 
     public static void main(String[] args){
         double adult, child;
@@ -17,7 +17,7 @@ public class ChillTOGo{
         System.out.print(child + "child meals were ordered at $" + 4.0 + " each.");
         System.out.print("Total is $" + child * 7.0);
 
-        System.out.print("Grnad total for all meals is $" + adult * child * 28.0);
+        System.out.print("Grand total for all meals is $" + adult * child * 28.0);
 
 
 
