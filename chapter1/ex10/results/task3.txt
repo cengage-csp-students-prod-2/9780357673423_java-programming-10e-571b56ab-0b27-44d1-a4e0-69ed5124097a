@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Test: The `Comments` program includes three different methods of using comments.
+Reason: A block comment was not found in your code. Make sure you include a block comment using '/* */'
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: A block comment was not found in your code. Make sure you include a block comment using '/* */'
+Error : str - AssertionError
+Timestamp: 2025-04-03 07:49:16.101102
