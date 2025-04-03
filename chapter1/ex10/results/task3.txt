@@ -1,13 +1,6 @@
 
-Status: FAILED!
-Test: The `Comments` program includes three different methods of using comments.
-Reason: A javadoc comment was not found in your code. Make sure you include a javadoc comment using '/** */'
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: 
-Reason: A javadoc comment was not found in your code. Make sure you include a javadoc comment using '/** */'
-Error : str - AssertionError
-Timestamp: 2025-04-03 08:01:01.789200
+Reason: None
+Timestamp: 2025-04-03 08:03:03.675778
