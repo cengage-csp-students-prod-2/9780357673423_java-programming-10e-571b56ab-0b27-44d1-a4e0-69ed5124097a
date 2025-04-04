@@ -27,9 +27,13 @@ public class ElectionStatistics{
         p3 = input3.nextDouble();
 
         double total = (p1 + p2 + p3 );
-        System.out.println("The " + n1 + " got " + (p1 * 100)/total + " percent of the vote" );
-        System.out.println("The " + n2 + " got " + (p2 * 100)/total + " percent of the vote" );
-        System.out.println("The " + n3 + " got " + (p3 * 100)/total + " percent of the vote" );
+        double r1 = (p1 * 100)/total ;
+        double r2 = (p2 * 100)/total ;
+        double r3 = (p3 * 100)/total ;
+
+        System.out.println("The " + n1 + " got " + r1 + " percent of the vote" );
+        System.out.println("The " + n2 + " got " + r2 + " percent of the vote" );
+        System.out.println("The " + n3 + " got " + r3 + " percent of the vote" );
 
 
     }
