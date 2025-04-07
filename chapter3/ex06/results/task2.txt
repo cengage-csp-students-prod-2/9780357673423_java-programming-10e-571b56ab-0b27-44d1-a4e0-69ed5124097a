@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `convertToFeet()` method converts inches to feet.
-Reason: Unable to determine the argument type for `convertToFeet()`. Make sure it accepts an `int` or a `double`.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `convertToFeet()` method converts inches to feet.
-Reason: Unable to determine the argument type for `convertToFeet()`. Make sure it accepts an `int` or a `double`.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-07 16:22:30.114469

@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `InchConversion` program converts user input to feet and yards.
-Reason: The simulated user input was 56 inches. Unable to find 56 inches converted to '4.666666666666667' feet in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `InchConversion` program converts user input to feet and yards.
-Reason: The simulated user input was 1,267 inches. Unable to find 1,267 inches converted to '105.58333333333333' feet in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-07 16:22:32.162272

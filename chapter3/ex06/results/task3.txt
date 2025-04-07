@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `convertToYards()` method converts inches to yards.
-Reason: Unable to determine the argument type for `convertToYards()`. Make sure it accepts an `int` or a `double`.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `convertToYards()` method converts inches to yards.
-Reason: Unable to determine the argument type for `convertToYards()`. Make sure it accepts an `int` or a `double`.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-07 16:22:31.170687
