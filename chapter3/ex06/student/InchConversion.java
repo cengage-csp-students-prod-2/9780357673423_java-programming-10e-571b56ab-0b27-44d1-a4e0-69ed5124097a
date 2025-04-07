@@ -7,20 +7,27 @@ public class InchConversion{
 
         Scanner san = new Scanner(System.in);
         System.out.print("Enter inches >> ");
-        float inches = san.nextFloat();
+        int inches = san.nextInt();
 
         convertToFeet(inches);
         convertToYards(inches);
     }
 
-    public static void convertToFeet(float inches){
 
-        System.out.println(inches + " inches is "+ inches / 12 + " feet");
+    public static void convertToFeet(int inches){
+        final double INCHES_TO_FT = 12;
+
+        double ans = inches / INCHES_TO_FT;
+
+        System.out.println(inches + " inches is "+ ans + " feet");
     }
 
-    public static void convertToYards(float inches){
+    public static void convertToYards(int inches){
+        final double INCHES_TO_YD = 36;
 
-        System.out.println(inches + " inches is "+ inches / 36 + " yards");
+        double ans = inches / INCHES_TO_YD;
+
+        System.out.println(inches + " inches is "+ ans + " yards");
     }
 
 }
