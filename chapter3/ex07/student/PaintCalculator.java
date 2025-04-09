@@ -20,8 +20,8 @@ public class PaintCalculator{
 
     public static double computeArea(double len, double wid , double hei){
 
-        // double area = (len * wid) + (len + hei) + (hei* wid);
-        double area = (len * wid * hei);
+        double area =2*  ((len * hei) + (hei* wid));
+        // double area = (len * wid * hei );
         double gallon = computeGallons(area);
         System.out.println("You will need " + gallon + " gallons");
         return 32 * gallon;
@@ -29,8 +29,8 @@ public class PaintCalculator{
     }
 
     public static double computeGallons(double area){
-
-        return area / 350;
+        final double dfactor = 350;
+        return area / dfactor;
 
 
     }
