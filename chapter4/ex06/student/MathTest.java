@@ -10,7 +10,9 @@ public class MathTest{
 
         System.out.println(Math.sqrt(num));
 
-        System.out.println("The sine and cosine of 300: " + Math.sin(300) + Math.cos(300));
+        System.out.println("The sine of 300: " + Math.sin(val));
+        System.out.println("The cosine of 300: " + Math.sin(val));
+        
         System.out.println("The floor, ceiling and rounded value of " + val + " : " + Math.floor(val) + Math.ceil(val) + Math.round(val));
 
 
