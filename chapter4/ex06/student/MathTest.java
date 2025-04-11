@@ -8,7 +8,7 @@ public class MathTest{
         int num = input.nextInt();
         double val = input.nextDouble();
 
-        System.out.println(Math.sqrt(num));
+        System.out.println("The square root of " + num + " is " + Math.sqrt(num));
 
         System.out.println("The sine of 300: " + Math.sin(val));
         System.out.println("The cosine of 300: " + Math.sin(val));
