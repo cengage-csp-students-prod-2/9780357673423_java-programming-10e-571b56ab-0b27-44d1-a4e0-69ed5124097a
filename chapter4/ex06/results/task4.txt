@@ -1,6 +1,6 @@
 
 Status: FAILED!
 Test: The `MathTest` program prints the cosine of 300 to the console.
-Reason: null
-Error : class java.util.NoSuchElementException
+Reason: The cosine of 300 is -0.022096619278683942. Unable to find '-0.022096619278683942' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -

@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `MathTest` program prints the ceiling of 22.8 to the console.
-Reason: null
-Error : class java.util.NoSuchElementException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `MathTest` program prints the floor of 22.8 to the console.
-Reason: null
-Error : class java.util.NoSuchElementException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-11 01:03:53.309953

@@ -1,6 +1,6 @@
 
 Status: FAILED!
 Test: The `MathTest` program prints the sine of 300 to the console.
-Reason: null
-Error : class java.util.NoSuchElementException
+Reason: The sine of 300 is -0.9997558399011495. Unable to find '-0.9997558399011495' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -
