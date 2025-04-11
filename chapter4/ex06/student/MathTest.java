@@ -5,7 +5,7 @@ public class MathTest {
         System.out.println("The square root of 37 is: " + Math.sqrt(37));
 
         // 2. Sine and Cosine of 300 degrees (converted to radians)
-        double angle = Math.toRadians(300);
+        double angle = 300;
         System.out.println("The sine of 300 degrees: " + Math.sin(angle));
         System.out.println("The cosine of 300 degrees: " + Math.cos(angle));
 
