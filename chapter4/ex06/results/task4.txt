@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: The `MathTest` program prints the cosine of 300 to the console.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
