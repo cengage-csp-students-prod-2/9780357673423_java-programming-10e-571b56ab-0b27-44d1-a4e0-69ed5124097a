@@ -1,0 +1,36 @@
+
+Status: FAILED!
+Test: TestMonthHandling adds 2 months to a user provided date.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: TestMonthHandling adds 2 months to a user provided date.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: TestMonthHandling adds 1 month to a user provided date.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: TestMonthHandling adds 1 month to a user provided date.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: TestMonthHandling adds 3 months to a user provided date.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: TestMonthHandling adds 3 months to a user provided date.
+Reason: null
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
