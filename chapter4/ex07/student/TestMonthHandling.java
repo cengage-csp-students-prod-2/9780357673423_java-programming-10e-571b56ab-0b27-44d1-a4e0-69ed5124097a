@@ -7,8 +7,7 @@ public class TestMonthHandling{
         
         LocalDate date1 = getDate();  
         LocalDate date2 = getDate();
-        System.out.print(date2);
-        System.out.print(date1);
+        
         DisplayDate(date1);
         DisplayDate(date2);
 
@@ -16,11 +15,11 @@ public class TestMonthHandling{
     public static LocalDate getDate(){
         Scanner input = new Scanner(System.in);
         int yr, mo, da;
-        System.out.println("Enter month >> " );
+        System.out.print("Enter month >> " );
         mo = input.nextInt();
-        System.out.println("Enter day >> " );
+        System.out.print("Enter day >> " );
         da = input.nextInt();
-        System.out.println("Enter year >> " );
+        System.out.print("Enter year >> " );
         yr = input.nextInt();
         LocalDate data = LocalDate.of(yr, mo, da);
         return data;
@@ -29,9 +28,9 @@ public class TestMonthHandling{
     public static void DisplayDate(LocalDate date){
 
         System.out.println("First date" + date);
-        System.out.println("Second date" + (date ));
-        System.out.println("Third date" + date);
-        System.out.println("Fourth date" + date);
+        System.out.println("Second date" +  date.plusMonths(1) );
+        System.out.println("Third date" + date.plusMonths(2) );
+        System.out.println("Fourth date" +  date.plusMonths(3) );
 
     }
 }
