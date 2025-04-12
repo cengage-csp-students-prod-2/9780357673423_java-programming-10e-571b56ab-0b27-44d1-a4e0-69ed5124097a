@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: TestMonthHandling adds 1 month to a date and the end of the year.
-Reason: null
-Error : class java.util.NoSuchElementException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: TestMonthHandling adds 2 month to a date and the end of the year.
-Reason: null
-Error : class java.util.NoSuchElementException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-12 16:18:48.500236
