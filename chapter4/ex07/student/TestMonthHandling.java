@@ -27,10 +27,10 @@ public class TestMonthHandling{
 
     public static void DisplayDate(LocalDate date){
 
-        System.out.println("First date" + date);
-        System.out.println("Second date" +  date.plusMonths(1) );
-        System.out.println("Third date" + date.plusMonths(2) );
-        System.out.println("Fourth date" +  date.plusMonths(3) );
+        System.out.println("First date " + date);
+        System.out.println("Second date " +  date.plusMonths(1) );
+        System.out.println("Third date " + date.plusMonths(2) );
+        System.out.println("Fourth date " +  date.plusMonths(3) );
 
     }
 }
