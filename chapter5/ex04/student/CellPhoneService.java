@@ -31,7 +31,7 @@ public class CellPhoneService{
                 System.out.print("Plan C $61 per month");
             }
             if (text >= 100){
-                System.out.print("Plan C $70 per month");
+                System.out.print("Plan D $70 per month");
             }
         
         }
