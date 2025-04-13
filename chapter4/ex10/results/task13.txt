@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: 
+Reason: Jane Doe is the bride used in this simulation. Unable to find 'Jane Doe' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: 
+Reason: Valentina Myles is the bride used in this simulation. Unable to find 'Valentina Myles' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
