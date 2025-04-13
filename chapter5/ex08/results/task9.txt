@@ -1,7 +1,6 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2025-04-13 23:34:59.366797
+Test: The `Automobile` class includes an overloaded constructor.
+Reason: Unable to locate an overloaded constructor. Make sure to include an overloaded constructor. It should follow this format: (id, make, model, color, year, mpg) Automobile.<init>(int, java.lang.String, java.lang.String, java.lang.String, int, double)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
