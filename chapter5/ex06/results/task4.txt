@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: The `AcmePay` program displays a third-shift worker's payment information for 45 hours of work with retirement.
+Reason: In this simulation, a third-shift worker working 45 hours a week with retirement should receive $880.00 a week. Unable to find 'Regular pay is $880.00' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
