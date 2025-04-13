@@ -32,7 +32,7 @@ public class TestAutomobiles {
         System.out.print("Enter mpg >> ");
         double mpg = input.nextDouble();
 
-        return new Automobile(id, year, mpg, make, model, color);
+        return new Automobile(id,   make, model, color, year, mpg);
     }
 
     public static void displayAuto(Automobile auto) {
