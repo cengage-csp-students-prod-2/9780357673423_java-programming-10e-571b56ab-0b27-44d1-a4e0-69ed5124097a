@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `AcmePay` program displays a first-shift worker's payment information for 45 hours of work.
-Reason: In this simulation, a first-shift worker working 45 hours a week should receive $680.00 a week. Unable to find 'Regular pay is $680.00' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-13 22:06:22.734525

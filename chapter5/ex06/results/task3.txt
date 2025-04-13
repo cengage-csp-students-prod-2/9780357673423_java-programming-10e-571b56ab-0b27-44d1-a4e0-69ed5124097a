@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `AcmePay` program displays a second-shift worker's payment information for 45 hours of work and retirement.
-Reason: In this simulation, a second-shift worker working 45 hours a week with retirement should receive $740.00 a week. Unable to find 'Regular pay is $740.00' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-13 22:06:23.713464
