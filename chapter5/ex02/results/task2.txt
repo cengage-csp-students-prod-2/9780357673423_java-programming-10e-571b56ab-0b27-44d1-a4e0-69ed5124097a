@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `AscendingAndDescending` program accepts three integers from a user and displays in ascending and descending order.
+Reason: The integers used in this simulation are 1, 2, and 7. Unable to find them listed in ascending order.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `AscendingAndDescending` program accepts three integers from a user and displays in ascending and descending order.
+Reason: The integers used in this simulation are 51, 14, and 39. Unable to find them listed in ascending order.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
