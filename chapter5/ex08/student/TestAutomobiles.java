@@ -41,6 +41,6 @@ public class TestAutomobiles {
                 auto.getModel() + " " +
                 auto.getColor() + " " +
                 auto.getYear() + " " +
-                auto.getMiles() + " miles per gallon");
+                auto.getMpg() + " miles per gallon");
     }
 }

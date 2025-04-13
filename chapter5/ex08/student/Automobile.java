@@ -10,17 +10,17 @@ public class Automobile {
     public Automobile() {
         setId(0);
         setYear(0);
-        setMiles(0);
+        setMpg(0);
         setMake("");
         setModel("");
         setColor("");
     }
 
     // Overloaded constructor
-    public Automobile(int id, int year, double miles, String make, String model, String color) {
+    public Automobile(int id, int year, double mpg, String make, String model, String color) {
         setId(id);
         setYear(year);
-        setMiles(miles);
+        setMpg(mpg);
         setMake(make);
         setModel(model);
         setColor(color);
@@ -54,7 +54,7 @@ public class Automobile {
         }
     }
 
-    public void setMiles(double mpg) {
+    public void setMpg(double mpg) {
         if (mpg < 10 || mpg > 60) {
             this.mpg = 0;
         } else {
@@ -82,7 +82,7 @@ public class Automobile {
         return year;
     }
 
-    public double getMiles() {
+    public double getMpg() {
         return mpg;
     }
 }
