@@ -6,6 +6,7 @@ public class TestWedding{
     public static void main(String[] args){
 
         Scanner  input = new Scanner(System.in);
+        String fbride , lbride;
 
         System.out.print("Enter month of wedding ");
         int month = input.nextInt();
@@ -14,11 +15,11 @@ public class TestWedding{
         System.out.print("Enter year of wedding ");
         int year = input.nextInt();
         LocalDate ld = LocalDate.of(year, month, day);
-
+        input.nextLine();
         System.out.print("Enter first name of the bride >> ");
-        String fbride = input.nextLine();
+        fbride = input.nextLine() ;
         System.out.print("Enter last name of the bride >> ");
-        String lbride = input.nextLine();
+        lbride = input.nextLine();
         Person bride = new Person(fbride, lbride);
 
         System.out.print("Enter first name of the groom >> ");
@@ -35,7 +36,7 @@ public class TestWedding{
         Wedding wedding = new Wedding(couple, ld , location);
 
         displayWeddingDetails(wedding);
-        input.close();
+        
 
     }
     public static void displayWeddingDetails(Wedding w)    {
