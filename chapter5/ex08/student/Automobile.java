@@ -1,69 +1,88 @@
-public class Automobile{
-public Automobile(int id, int year, double miles, String make, String model, String color){
+public class Automobile {
+    private int id;
+    private String make;
+    private String model;
+    private String color;
+    private int year;
+    private double mpg;
+
+    // Default constructor
+    public Automobile() {
+        setId(0);
+        setYear(0);
+        setMiles(0);
+        setMake("");
+        setModel("");
+        setColor("");
+    }
+
+    // Overloaded constructor
+    public Automobile(int id, int year, double miles, String make, String model, String color) {
         setId(id);
         setYear(year);
         setMiles(miles);
         setMake(make);
         setModel(model);
         setColor(color);
-}
-
-public void setId(int id){
-    final int Max_Id = 9999;
-    if (id < 0 || id > 9999){
-        this.id  = 0;
     }
-    else{
-        this.id = id; 
+
+    public void setId(int id) {
+        if (id < 0 || id > 9999) {
+            this.id = 0;
+        } else {
+            this.id = id;
+        }
     }
-}
 
-public void setMake(String make){
-    this.make = make;
-}
-
-public void setYear(int year){
-    if( year < 2004 || year > 2024){
-        this.year = 0;
+    public void setMake(String make) {
+        this.make = make;
     }
-    else{
-        this.year = year;
+
+    public void setModel(String model) {
+        this.model = model;
     }
-}
 
-public void setMiles(double miles){
-    if (miles < 10 || miles > 60){
-        this.miles = 0;
+    public void setColor(String color) {
+        this.color = color;
     }
-    else{
-        this.miles = miles;
+
+    public void setYear(int year) {
+        if (year < 2005 || year > 2024) {
+            this.year = 0;
+        } else {
+            this.year = year;
+        }
     }
-}
 
-public void setModel(String model){
-    this.model = model;
-}
+    public void setMiles(double mpg) {
+        if (mpg < 10 || mpg > 60) {
+            this.mpg = 0;
+        } else {
+            this.mpg = mpg;
+        }
+    }
 
-public void setColor(String color){
-    this.model = model;
-}
+    public int getId() {
+        return id;
+    }
 
-public int getId(){
-    return id;
-}
-public double getMiles(){
-    return Miles;
-}
-public int getYear(){
-    return Year;
-}
-public String getColor(){
-    return Color;
-}
-public String getModel(){
-    return Model;
-}
-public String getMake(){
-    return Make;
-}
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public double getMiles() {
+        return mpg;
+    }
 }
