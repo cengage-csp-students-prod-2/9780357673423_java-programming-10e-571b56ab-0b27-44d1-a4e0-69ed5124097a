@@ -37,12 +37,15 @@ public class AcmePay{
         }
         
         System.out.println("Hourly pay rate is " + payRate);
-        regPay = hour * payRate;
-        System.out.println("Regular pay is " + regPay);
+
         if (hour <= 40){
+            regPay =  hour* payRate;
+            System.out.println("Regular pay is " + regPay);
             overPay = 0;
         }
         else if (hour > 40){
+            regPay =  40* payRate;
+            System.out.println("Regular pay is " + regPay);
             overPay = (hour -40) * payRate * 1.5;
         }
         System.out.println("Overtime pay is " + overPay);
