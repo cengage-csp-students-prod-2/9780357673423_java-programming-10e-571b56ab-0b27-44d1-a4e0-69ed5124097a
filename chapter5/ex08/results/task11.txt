@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `enterData()` method prompts the user for `Automobile` data field values, and returns an `Automobile` object.
-Reason: Cannot invoke "java.lang.Object.toString()" because "<local15>" is null
-Error : class java.lang.NullPointerException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-13 23:59:34.469451
