@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `CellPhoneService` program recommends plan D for the appropriate customer inputs.
-Reason: The customer requires 600 minutes of talk and 100 text messages. This criteria matches plan D. Unable to find 'Plan D' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `CellPhoneService` program recommends plan D for the appropriate customer inputs.
-Reason: The customer requires 600 minutes of talk and 500 text messages. This criteria matches plan D. Unable to find 'Plan D' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-13 20:44:11.007553
