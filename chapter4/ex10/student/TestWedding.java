@@ -35,6 +35,7 @@ public class TestWedding{
         String location = input.nextLine() ;
 
         Wedding wedding = new Wedding(couple, ld , location);
+        input.close();
 
         displayWeddingDetails(wedding);
         
