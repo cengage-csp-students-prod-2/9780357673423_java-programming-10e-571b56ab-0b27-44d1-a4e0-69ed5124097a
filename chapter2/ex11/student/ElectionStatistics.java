@@ -30,8 +30,9 @@ public class ElectionStatistics {
         double r2 = (p2 * 100.0) / totalVotes;
         double r3 = (p3 * 100.0) / totalVotes;
 
-        System.out.println("\nThe " + n1 + " got " + r1 + " percent of the vote");
-        System.out.println("The " + n2 + " got " + r2 + " percent of the vote");
-        System.out.println("The " + n3 + " got " + r3 + " percent of the vote");
+        System.out.printf("The %s got %.5f percent of the vote%n", n1, r1);
+        System.out.printf("The %s got %.5f percent of the vote%n", n2, r2);
+        System.out.printf("The %s got %.5f percent of the vote%n", n3, r3);
+
     }
 }
