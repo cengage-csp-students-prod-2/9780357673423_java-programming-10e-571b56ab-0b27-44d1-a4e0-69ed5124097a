@@ -3,6 +3,11 @@
 public class Person {
     private String firstName;
     private String lastName;
+    public Person(){
+         this.firstName = "";
+         this.lastName = "";
+
+    }
     public Person(String first, String last)    {
        this.firstName = first;
        this.lastName = last;
