@@ -1,35 +1,40 @@
-// Write your code here
 import java.util.Scanner;
-public class ChiliTOGoProfit{
 
-    public static void main(String[] args){
-        double adult, child;
+public class ChiliToGoProfit {
+    public static void main(String[] args) {
+        final double ADULT_MEAL_PRICE = 7.00;
+        final double CHILD_MEAL_PRICE = 4.00;
+
+        final double ADULT_COST = 4.35;
+        final double CHILD_COST = 3.10;
+
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter number of adult meals ordered >> ");
-        adult = input.nextDouble();
+        int adultMeals = input.nextInt();
+
         System.out.print("Enter number of child meals ordered >> ");
-        child = input.nextDouble();
+        int childMeals = input.nextInt();
 
-        System.out.print(adult + "adult meals were ordered at $" + 7.0 + " each.");
-        System.out.print("Total is $" + adult * 7.0);
+        double adultTotal = adultMeals * ADULT_MEAL_PRICE;
+        double childTotal = childMeals * CHILD_MEAL_PRICE;
+        double grandTotal = adultTotal + childTotal;
 
-        System.out.print(child + "child meals were ordered at $" + 4.0 + " each.");
-        System.out.print("Total is $" + child * 7.0);
+        double adultProfit = adultMeals * (ADULT_MEAL_PRICE - ADULT_COST);
+        double childProfit = childMeals * (CHILD_MEAL_PRICE - CHILD_COST);
+        double totalProfit = adultProfit + childProfit;
 
-        System.out.print("Grnad total for all meals is $" + adult * child * 28.0);
+        System.out.println("\n" + adultMeals + " adult meals were ordered at $" + ADULT_MEAL_PRICE + " each.");
+        System.out.println("      Total is $" + adultTotal);
 
+        System.out.println(childMeals + " child meals were ordered at $" + CHILD_MEAL_PRICE + " each.");
+        System.out.println("      Total is $" + childTotal);
 
-        System.out.print("Profits:");
-        System.out.print("Adult profits is $" + adult * 2.65);
-        System.out.print("Child profits is $" + child * 0.90);
+        System.out.println("Grand total for all meals is $" + grandTotal);
 
-        System.out.print("TOtal profits is $" + child * adult * 2.385);
-
-
-
-
-
-
+        System.out.println("Profits:");
+        System.out.println("      Adult profit is $" + adultProfit);
+        System.out.println("      Child profit is $" + childProfit);
+        System.out.println("Total profit is $" + totalProfit);
     }
-
 }
