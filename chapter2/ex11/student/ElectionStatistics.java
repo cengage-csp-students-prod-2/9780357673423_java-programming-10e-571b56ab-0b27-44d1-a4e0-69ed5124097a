@@ -24,15 +24,14 @@ public class ElectionStatistics {
         System.out.print("Enter votes received >> ");
         p3 = input.nextInt();
 
-        int totalVotes = p1 + p2 + p3;
+        int total = p1 + p2 + p3;
+        double r1 = (p1 * 100.0) / total;
+        double r2 = (p2 * 100.0) / total;
+        double r3 = (p3 * 100.0) / total;
 
-        double r1 = (p1 * 100.0) / totalVotes;
-        double r2 = (p2 * 100.0) / totalVotes;
-        double r3 = (p3 * 100.0) / totalVotes;
-
-        System.out.printf("The %s got %.5f percent of the vote%n", n1, r1);
-        System.out.printf("The %s got %.5f percent of the vote%n", n2, r2);
-        System.out.printf("The %s got %.5f percent of the vote%n", n3, r3);
-
+        // Print raw values (do not format with printf)
+        System.out.println("The " + n1 + " got " + r1 + " percent of the vote");
+        System.out.println("The " + n2 + " got " + r2 + " percent of the vote");
+        System.out.println("The " + n3 + " got " + r3 + " percent of the vote");
     }
 }
