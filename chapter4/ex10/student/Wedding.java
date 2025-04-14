@@ -33,9 +33,9 @@ public class Wedding
    private LocalDate weddingDate;
    private String location;
    public Wedding(Couple c, LocalDate date, String loc)    {
-      couple = c;
-      weddingDate = date;
-      location = loc;
+      this.couple = c;
+      this.weddingDate = date;
+      this.location = loc;
    }
    public Couple getCouple()    {
       return couple;
