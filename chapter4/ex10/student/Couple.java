@@ -23,6 +23,10 @@
 public class Couple {
     private Person bride;
     private Person groom;
+    public Couple(){
+      this.bride = new Person();
+      this.groom = new Person();
+    }
     public Couple(Person br, Person gr)    {
       this.bride = br;
       this.groom = gr;

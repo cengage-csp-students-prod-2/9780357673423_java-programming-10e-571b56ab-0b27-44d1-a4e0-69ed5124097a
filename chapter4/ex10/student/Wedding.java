@@ -32,6 +32,11 @@ public class Wedding
    private Couple couple;
    private LocalDate weddingDate;
    private String location;
+   public Wedding(){
+      this.couple = new Couple();
+      this.weddingDate = LocalDate.now();
+      this.location = "" ;
+   }
    public Wedding(Couple c, LocalDate date, String loc)    {
       this.couple = c;
       this.weddingDate = date;
