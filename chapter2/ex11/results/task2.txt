@@ -1,12 +1,6 @@
 
 Status: FAILED!
 Test: The program accepts the vote totals for three parties and displays the percent of the total each party received.
-Reason: No line found
-Error : class java.util.NoSuchElementException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The program accepts the vote totals for three parties and displays the percent of the total each party received.
-Reason: No line found
-Error : class java.util.NoSuchElementException
+Reason: In this simulation, the House party received 25 votes out of 89. Unable to find '28.08988764044944 percent' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -
