@@ -11,7 +11,7 @@ public class QuizScoreStatistics{
         int high = 0;
         int low = digit;
         int valid = 1;
-        double total = 0;
+        double total = digit;
 
         while (digit != 99){
             System.out.print("Enter another score or 99 to quit >> ");
