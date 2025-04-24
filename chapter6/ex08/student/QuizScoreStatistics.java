@@ -19,15 +19,18 @@ public class QuizScoreStatistics{
             if (digit == 99){
                 break;
             }
+            if (digit >= 0 && digit <= 10){
+                valid = valid + 1;
+            }
+            else{
+                continue;
+            }
             if (digit > high){
                 high = digit;
             }
 
             if (digit < low){
                 low = digit;
-            }
-            if (digit >= 0 && digit <= 10){
-                valid = valid + 1;
             }
             total = total + digit;
 
