@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Test: The `QuizScoreStatistics` program displays the number of valid scores, the highest score, the lowest score, and the average score.
-Reason: The simulated quiz scores were 6, 9, 10, 8, 9, and 8. Expected to find the average quiz score, '8.333333333333334', in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `QuizScoreStatistics` program ignores invalid quiz scores.
-Reason: The simulated quiz scores were 4, -1, 9, 9, 11, 5, and 9. Expected to find the average quiz score, '7.2', in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-04-24 23:20:04.403548
