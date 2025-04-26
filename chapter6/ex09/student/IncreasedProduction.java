@@ -8,10 +8,11 @@ public class IncreasedProduction{
         System.out.print("Enter worker's current production level >> ");
         double prod = input.nextDouble();
         int res = 0;
+        
         for (int i = 1; i<=24 ; i++){
             prod = (prod  + prod * 0.06);
             System.out.println("Month " + i + "     Predicted production is "+  prod);
-            if (prod >= 10000) {
+            if ((prod >= 10000) && (res == 0)) {
                 res = i;
             }
         }
