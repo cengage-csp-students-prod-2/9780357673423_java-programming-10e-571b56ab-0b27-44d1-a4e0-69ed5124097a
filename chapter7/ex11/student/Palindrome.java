@@ -8,18 +8,22 @@ public class Palindrome{
         String word = input.nextLine();
 
         int i = 0;
-        int j = word.length() - 1 ;
+        int j = word.length() ;
+        int loop = j / 2;
 
-        while (i <= j) {
+        while (i <= loop ) {
 
-            if (word.charAt(i) != word.charAt(j)) {
+            if (word.charAt(i) != word.charAt(j-1)) {
                 System.out.print("No, you did not enter a palindrome");
                 break;
             }
+             i = i + 1;
+             j = j - 1;
 
         }
+        if (i >= loop){
         System.out.print("Yes, entered a palindrome");
-
+        }
 
 
 
