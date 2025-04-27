@@ -16,13 +16,15 @@ public class PigLatin{
         }
         else{
             int i = 1;
+            String newWord = "" + start;
             start = word.charAt(i);
             while (!((start == 'a') || (start == 'e') || (start == 'i') || (start == 'o') || (start == 'u') || (start == 'y'))){
+                newWord = newWord + start;
                 i++;
                 start = word.charAt(i);
             }
 
-            System.out.print("Pig Latin version: " + (word.substring(i) + "ay"));
+            System.out.print("Pig Latin version: " + (word.substring(i) + newWord +"ay"));
 
         }
 
