@@ -29,16 +29,35 @@ public class ValidatePassword{
 
         }
         else{
-            if ((upCase >= 1) && (lowCase>=1)){
+            if ((upCase >= 2) && (lowCase>=3)){
             System.out.println("The password did not have enough: " + "digits");
         }
-        else if ((lowCase>=1) && (digit>=1)){
+        else if ((lowCase>=3) && (digit>=1)){
             System.out.println("The password did not have enough: " + "uppercase");
         }
-        else{
+        else if ((upCase >=2 ) && (digit >= 1)){
             System.out.println("The password did not have enough: " + "lowerCase");
         }
+        else if (upCase >=2 ){
+            System.out.println("The password did not have enough: " + "digits, lowercase");
+        }
+        else if (lowCase>=3){
+            System.out.println("The password did not have enough: " + "uppercase, digit");
+
+        }
+        else if (digit >= 1){
+            System.out.println("The password did not have enough: " + "lowerCase, uppercase");
+        }
+        else{
+            System.out.println("The password did not have enough: " + "digits, lowerCase, uppercase");
+            
+            
+        }
+
+
     }
+    input.close();
     }
+
 }
 
