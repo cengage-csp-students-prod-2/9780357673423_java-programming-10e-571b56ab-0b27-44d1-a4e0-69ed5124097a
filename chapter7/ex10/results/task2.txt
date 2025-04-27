@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Test: The `PhoneNumberFormat` program converts ten digits into a phone number.
+Reason: No line found
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `PhoneNumberFormat` program converts ten digits into a phone number.
+Reason: No line found
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `PhoneNumberFormat` program does not accept more than ten digits.
+Reason: No line found
+Error : class java.util.NoSuchElementException
+- - - - - - - - - -
