@@ -1,24 +1,6 @@
 
 Status: FAILED!
-Test: The `ValidatePassword` program correctly indicates missing digits from a password.
-Reason: In this simulation, the password is 'HelloWorld`. This is an invalid password missing digits. Unable to find 'digits' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `ValidatePassword` program correctly indicates missing uppercase letters from a password.
-Reason: In this simulation, the password is 'h3lloworld`. This is an invalid password missing uppercase letters. Unable to find 'uppercase' in the program's output. 
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `ValidatePassword` program correctly indicates missing lowercase letters from a password.
-Reason: In this simulation, the password is 'H3LLOWORLD`. This is an invalid password missing lowercase letters. Unable to find 'lowercase' in the program's output
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
 Test: The `ValidatePassword` program correctly indicates missing lowercase, uppercase, and digits from a password.
-Reason: In this simulation, the password is 'Hi`. This is an invalid password missing lowercase letters, uppercase letters, and digits. Unable to find 'digits' in the program's output.
+Reason: In this simulation, the password is 'Hi`. This is an invalid password missing lowercase letters, uppercase letters, and digits. Unable to find 'lowercase' in the program's output
 Error : class java.lang.AssertionError
 - - - - - - - - - -
