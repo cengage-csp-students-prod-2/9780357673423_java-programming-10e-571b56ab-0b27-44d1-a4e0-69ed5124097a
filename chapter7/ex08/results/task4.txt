@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `PigLatin` program translates words that start with 'y' to Pig Latin.
+Reason: In this simulation, the input `String` value is 'yosemite'. Yosemite converted to Pig Latin is osemiteyay. Unable to find 'osemiteyay' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `PigLatin` program translates words that start with 'y' to Pig Latin.
+Reason: In this simulation, the input `String` value is 'yellowstone'. Yellowstone converted to Pig Latin is ellowstoneyay. Unable to find 'ellowstoneyay' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -

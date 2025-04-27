@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `PigLatin` program translates words that start with consonants to Pig Latin.
+Reason: In this simulation, the input `String` value is 'terrestrial'. Terrestrial converted to Pig Latin is errestrialtay. Unable to find 'errestrialtay' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `PigLatin` program translates words that start with consonants to Pig Latin.
+Reason: In this simulation, the input `String` value is 'zebra'. Zebra converted to Pig Latin is ebrazay. Unable to find 'ebrazay' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
