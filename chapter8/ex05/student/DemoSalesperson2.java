@@ -9,7 +9,7 @@ public class DemoSalesperson2{
 
             
 
-            System.out.println("Salesperson " + i + " has ID #" + sp.getId() + "and annual sales of $" + sp.getSales());
+            System.out.println("Salesperson " + i + " has ID #" + sp.getId() + " and annual sales of $" + sp.getSales());
 
         }
 
