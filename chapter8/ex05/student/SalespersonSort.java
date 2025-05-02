@@ -5,7 +5,7 @@ public class SalespersonSort{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
          
-        Salesperson sp = new Salesperson();
+        
         Salesperson[] arr = new Salesperson[7];
         int id;
         double sales;
