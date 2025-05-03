@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: The `Student` class contains the `course` data field.
+Reason: Unable to find the `course` data field. course
+Error : class java.lang.NoSuchFieldException
+- - - - - - - - - -

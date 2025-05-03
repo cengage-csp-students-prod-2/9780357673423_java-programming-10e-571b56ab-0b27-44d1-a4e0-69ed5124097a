@@ -1,0 +1,24 @@
+
+Status: FAILED!
+Test: The `Student` class contains the `setStuID()` method.
+Reason: Unable to find the `setStuID(int)` method. Student.setStuID(int)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `Student` class contains the `setStuID()` method.
+Reason: Unable to find the `setStuID(int)` method. Student.setStuID(int)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `Student` class contains the `getStuID()` method.
+Reason: Unable to find the `getStuID()` method. Student.getStuID()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `Student` class contains the `getStuID()` method.
+Reason: Unable to find the `getStuID()` method. Student.getStuID()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
