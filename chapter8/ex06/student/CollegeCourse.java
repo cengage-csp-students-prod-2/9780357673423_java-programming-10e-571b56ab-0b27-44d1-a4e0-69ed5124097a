@@ -6,25 +6,25 @@ public class CollegeCourse{
     int credits;
     char grade;
     public CollegeCourse(String cr, int cd, char g){
-        this.setCourse(cr);
-        this.setCredit(cd);
+        this.setCourseID(cr);
+        this.setCredits(cd);
         this.setGrade(g);
 
     }
 
-    public String getCourse(){
+    public String getCourseID(){
         return courseID;
     }
-    public int getCredit(){
+    public int getCredits(){
         return credits;
     }
     public char getGrade(){
         return grade;
     }
-    public void setCourse(String cr){
+    public void setCourseID(String cr){
         this.courseID = cr;
     }
-    public void setCredit(int cd){
+    public void setCredits(int cd){
         this.credits = cd;
     }
     public void setGrade(char g){
