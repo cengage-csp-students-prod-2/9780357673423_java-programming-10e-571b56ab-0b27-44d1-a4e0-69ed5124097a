@@ -24,7 +24,7 @@ public class SalespersonDatabase{
             boolean exist = false;
 
             for (int i = 0; i < count; i++){
-                if (arr[i].getId() == id){
+                if ( arr[i].getId() == id ){
                     System.out.print("ID already exist.");
                     exist = true;
                     break;
