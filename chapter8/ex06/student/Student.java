@@ -1,23 +1,20 @@
-// Write your code here
+public class Student {
+    private int stuID;
+    private CollegeCourse[] courses = new CollegeCourse[5];
 
-
-public class Student{
-    
-
- 
-    int stuID;
-    CollegeCourse cc[] = new CollegeCourse[5];
-    public  Student(int sid, int cid, String course, int credit, char g ){
-        cc[cid] = new CollegeCourse(course, credit, g);
-        setStuID(cid, cc[cid] );
-        // cc[cid].setCourse(course);
-        // cc[cid].setCredit(credit);
-        // cc[cid].setGrade(g);
+    public void setStuID(int id) {
+        this.stuID = id;
     }
-    public  CollegeCourse getStuID(int i){
-        return cc[i];
+
+    public int getStuID() {
+        return stuID;
     }
-    public void setStuID(int pos, CollegeCourse course){
-        cc[pos] = course;
+
+    public CollegeCourse getCourse(int index) {
+        return courses[index];
+    }
+
+    public void setCourse(CollegeCourse course, int index) {
+        courses[index] = course;
     }
 }
