@@ -1,6 +1,6 @@
 public class Student {
     private int stuID;
-    private CollegeCourse[] courses = new CollegeCourse[5];
+    private CollegeCourse[] course = new CollegeCourse[5];
 
     public void setStuID(int id) {
         this.stuID = id;
@@ -11,10 +11,10 @@ public class Student {
     }
 
     public CollegeCourse getCourse(int index) {
-        return courses[index];
+        return course[index];
     }
 
     public void setCourse(CollegeCourse course, int index) {
-        courses[index] = course;
+        this.course[index] = course;
     }
 }
