@@ -18,7 +18,7 @@ public class InputGrades{
                 System.out.print("For student #" + (i+1) + ", enter grade for course >> " + (j+1) );
                 char g = input.nextLine().charAt(0);
                 CollegeCourse cs = new CollegeCourse(course, cr, g);
-                st[i].setStuID(j, cs);
+                st[i] = new Student(i, j, course, cr, g );
         }
     }
     }
