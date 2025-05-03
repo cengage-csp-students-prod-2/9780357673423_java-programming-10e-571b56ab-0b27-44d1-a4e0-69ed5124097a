@@ -20,15 +20,20 @@ public class InputGrades {
                 int credits = input.nextInt();
                 input.nextLine(); // consume newline
 
-                char grade;
+                String grade;
                 while (true) {
                     System.out.print("For student #" + (i + 1) + ", enter grade for course #" + (j + 1) + " >> ");
-                    grade = input.nextLine().toUpperCase().charAt(0);
-                    if ("ABCDF".indexOf(grade) != -1) break;
+                    
+                    grade = input.nextLine();
+                    char g = grade.toUpperCase().charAt(0);
+                    if ("ABCDF".indexOf(g) != -1) {
+                        
+                    break;
+                    }
                     System.out.println("Invalid grade. Please enter A, B, C, D, or F.");
                 }
 
-                CollegeCourse course = new CollegeCourse(courseID, credits, grade);
+                CollegeCourse course = new CollegeCourse(courseID, credits, grade );
                 students[i].setCourse(course, j);
             }
         }
