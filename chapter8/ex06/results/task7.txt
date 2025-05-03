@@ -1,6 +1,7 @@
 
 Status: FAILED!
-Test: The `Student` class contains the `course` data field.
-Reason: Unable to find the `course` data field. course
-Error : class java.lang.NoSuchFieldException
-- - - - - - - - - -
+Check: 1
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the java files.
+Timestamp: 2025-05-03 10:18:45.681507
