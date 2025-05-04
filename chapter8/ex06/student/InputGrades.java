@@ -1,15 +1,19 @@
 import java.util.Scanner;
 
 public class InputGrades {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Student[] students = new Student[10];
+        Student[] students;
+        students = new Student[10];
 
         for (int i = 0; i < 10; i++) {
             students[i] = new Student();  // use default constructor
+
             System.out.print("For student #" + (i + 1) + ", enter the student ID >> ");
             int id = input.nextInt();
             input.nextLine(); // consume newline
+
             students[i].setStuID(id);
 
             for (int j = 0; j < 5; j++) {
@@ -20,13 +24,12 @@ public class InputGrades {
                 int credits = input.nextInt();
                 input.nextLine(); // consume newline
 
-                String grade;
+                char grade;
                 while (true) {
                     System.out.print("For student #" + (i + 1) + ", enter grade for course #" + (j + 1) + " >> ");
                     
-                    grade = input.nextLine();
-                    char g = grade.toUpperCase().charAt(0);
-                    if ("ABCDF".indexOf(g) != -1) {
+                    grade = input.nextLine().toUpperCase().charAt(0);
+                    if ("ABCDF".indexOf(grade) != -1) {
                         
                     break;
                     }

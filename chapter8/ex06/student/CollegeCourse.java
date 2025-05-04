@@ -2,10 +2,10 @@
 
 public class CollegeCourse{
 
-    String courseID;
-    int credits;
-    String grade;
-    public CollegeCourse(String cr, int cd, String g){
+    private String courseID;
+    private int credits;
+    private char grade;
+    public CollegeCourse(String cr, int cd, char  g){
         this.setCourseID(cr);
         this.setCredits(cd);
         this.setGrade(g);
@@ -18,7 +18,7 @@ public class CollegeCourse{
     public int getCredits(){
         return credits;
     }
-    public String getGrade(){
+    public char getGrade(){
         return grade;
     }
     public void setCourseID(String courseID){
@@ -27,7 +27,7 @@ public class CollegeCourse{
     public void setCredits(int credits){
         this.credits = credits;
     }
-    public void setGrade(String grade){
+    public void setGrade(char grade){
         this.grade = grade;
     }
 }
