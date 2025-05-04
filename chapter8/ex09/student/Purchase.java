@@ -13,7 +13,17 @@ public class Purchase{
         invoiceNumber = inVo;
     }
 
-    public void Display(){
+    public void display(){
         System.out.println("Invoice #" + invoiceNumber + " Amount of sale: $"+ saleAmount +"Tax: $"+ tax );
+    }
+
+    public int getInvoiceNumber(){
+        return invoiceNumber;
+    }
+    public double getSaleAmount(){
+        return saleAmount;
+    }
+    public double getTax(){
+        return tax;
     }
 }

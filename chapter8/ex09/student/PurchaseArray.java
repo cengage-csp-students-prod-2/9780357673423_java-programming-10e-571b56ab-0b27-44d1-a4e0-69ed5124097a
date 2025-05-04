@@ -9,13 +9,14 @@ public class PurchaseArray{
                 purch[i] = new Purchase();
                 System.out.print("Enter invoice number >> ");
                 int invoice = input.nextInt();
-                System.out.print("Enter sale amount >> ");
-                double sale = input.nextDouble();
+                
 
-                while (invoice <1000 && invoice > 8000){
+                while (invoice <1000 || invoice > 8000){
                     System.out.print("Enter invoice number >> ");
                     invoice = input.nextInt();
                 }
+                System.out.print("Enter sale amount >> ");
+                double sale = input.nextDouble();
                 while (sale < 0){
                     System.out.print("Enter sale amount >> ");
                     sale = input.nextDouble();
@@ -29,8 +30,8 @@ public class PurchaseArray{
         // Now displaying message
            System.out.println("Summary of purchase:");
            for (int i=0; i< 5; i++){
-            purch[i].Display();
-            
+            purch[i].display();
+
            }
            input.close();
     }
