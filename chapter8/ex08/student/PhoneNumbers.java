@@ -18,7 +18,7 @@ public class PhoneNumbers{
                 break;
             }
             else if ( namePhone.containsKey(name) ){
-                System.out.prinlnt(name + "'s phone number is " + namePhone.get(name));
+                System.out.println(name + "'s phone number is " + namePhone.get(name));
             }
             else{
                 System.out.println(name + " not found in current list");
