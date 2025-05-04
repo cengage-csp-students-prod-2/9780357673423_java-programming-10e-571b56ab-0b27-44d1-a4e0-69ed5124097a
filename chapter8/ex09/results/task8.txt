@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `PurchaseArray` program accepts 5 `Purchase` objects and displays the `invoiceNumbers`, `saleAmount`, and `tax` data to the user.
+Reason: The simulated user input contained the following sale amounts: $6,091.06, $11,385.41, $19,468.53, $19,509.04, $15,132.84. The tax for the first sale is incorrect. Unable to find '547.661' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `PurchaseArray` program accepts 5 `Purchase` objects and displays the `invoiceNumbers`, `saleAmount`, and `tax` data to the user.
+Reason: The simulated user input contained the following sale amounts: $9,620.22, $2,263.33, $10,027.82, $9,700.6, $11,019.78. The tax for the first sale is incorrect. Unable to find '481.01099999999997' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
