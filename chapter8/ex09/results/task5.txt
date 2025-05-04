@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `Purchase` class contains the `display()` method.
-Reason: Purchase.display()
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-04 23:57:57.917692

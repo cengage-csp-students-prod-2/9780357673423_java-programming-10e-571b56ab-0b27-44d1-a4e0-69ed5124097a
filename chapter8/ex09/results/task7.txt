@@ -1,26 +1,6 @@
 
-Status: FAILED!
-Test: The `PurchaseArray` program only accepts invoice numbers between 1000 and 8000 inclusive.
-Reason: In this simulation, 8070 was entered as an invoice number. '8070' should not be displayed in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `PurchaseArray` program only accepts invoice numbers between 1000 and 8000 inclusive.
-Reason: The simulated user input in this simulation included 1000 and 8000.
-Your program did not accept the simulated input.
-The simulated input is: 
-8000
-6091.06
-1000
-11385.41
-3151
-19468.53
-559
-7267
-19509.04
-1812
-15132.84
-Make sure your program follows the example shown in the instructions. null
-Error : class java.util.InputMismatchException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-04 23:57:59.663177
