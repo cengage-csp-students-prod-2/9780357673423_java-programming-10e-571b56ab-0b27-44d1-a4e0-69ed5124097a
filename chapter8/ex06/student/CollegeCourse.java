@@ -5,12 +5,7 @@ public class CollegeCourse{
     private String courseID;
     private int credits;
     private char grade;
-    public CollegeCourse(String cr, int cd, char  g){
-        this.setCourseID(cr);
-        this.setCredits(cd);
-        this.setGrade(g);
 
-    }
 
     public String getCourseID(){
         return courseID;

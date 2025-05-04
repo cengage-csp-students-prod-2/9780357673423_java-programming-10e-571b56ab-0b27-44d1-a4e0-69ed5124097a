@@ -1,14 +1,15 @@
 public class Student {
     private int stuID;
-    private CollegeCourse[] course = new CollegeCourse[5];
+    private CollegeCourse[] course ;
 
-    // public Student(){
-    //     for (int i = 0; i < 5 ; i++){
-    //         course[i] = new CollegeCourse() ;
-    //     }
-    // }
-    public void setStuID(int id) {
-        this.stuID = id;
+    public Student(){
+        course = new CollegeCourse[5];
+        for (int i = 0; i < 5 ; i++){
+            course[i] = new CollegeCourse() ;
+        }
+    }
+    public void setStuID(int stuID) {
+        this.stuID = stuID ;
     }
 
     public int getStuID() {
@@ -25,6 +26,8 @@ public class Student {
     }
 
     public void setCourse(CollegeCourse course, int index) {
-        this.course[index] = course;
+        if (index >=0 && index < 5){
+            this.course[index] = course;
+        }
     }
 }
