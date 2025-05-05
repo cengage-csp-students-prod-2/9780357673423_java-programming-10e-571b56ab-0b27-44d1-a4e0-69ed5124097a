@@ -4,9 +4,9 @@ public class Purchase{
     private double saleAmount;
     private double tax;
 
-    public void setSaleAmount(double sa){
-        saleAmount = sa;
-        tax = saleAmount + (0.05 * saleAmount);
+    public void setSaleAmount(double saleAmount){
+        this.saleAmount = saleAmount;
+        tax = (0.05 * saleAmount);
 
     }
     public void setInvoiceNumber(int inVo){
@@ -14,7 +14,7 @@ public class Purchase{
     }
 
     public void display(){
-        System.out.println("Invoice #" + invoiceNumber + " Amount of sale: $"+ saleAmount +"Tax: $"+ tax );
+        System.out.println("Invoice #" + invoiceNumber + " Amount of sale: $"+ saleAmount +" Tax: $"+ tax );
     }
 
     public int getInvoiceNumber(){
