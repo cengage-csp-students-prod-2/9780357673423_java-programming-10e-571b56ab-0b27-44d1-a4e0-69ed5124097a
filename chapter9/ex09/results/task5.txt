@@ -1,7 +1,18 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2025-05-09 00:18:07.881376
+Test: The `DemoPhoneCalls` program accepts user input and displays details about the phone call entered.
+Reason: There was an issue simulating the user input for your program. Make sure your program follows the example shown in the instructions. String index out of range: 0
+Error : class java.lang.StringIndexOutOfBoundsException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DemoPhoneCalls` program accepts user input and displays details about the phone call entered.
+Reason: There was an issue simulating the user input for your program. Make sure your program follows the example shown in the instructions. String index out of range: 0
+Error : class java.lang.StringIndexOutOfBoundsException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DemoPhoneCalls` program accepts user input and displays details about the phone call entered.
+Reason: There was an issue simulating the user input for your program. Make sure your program follows the example shown in the instructions. String index out of range: 0
+Error : class java.lang.StringIndexOutOfBoundsException
+- - - - - - - - - -
