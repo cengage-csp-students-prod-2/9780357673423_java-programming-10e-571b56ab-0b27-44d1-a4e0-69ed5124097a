@@ -6,7 +6,12 @@ public class DemoPhoneCalls{
         Scanner scan = new Scanner(System.in);
         while (true){
             System.out.print("Is this call (I)ncoming or (O)utgoing?\nOr enter Q to quit >> ");
-            char ch = scan.nextLine().charAt(0);
+            String input = scan.nextLine();
+            char ch = input.charAt(0);
+            if (input.isEmpty()) {
+        continue; // Skip empty input
+    }
+
             if (ch == ('I')){
                 System.out.print("Enter the phone number >> ");
                 String phone = scan.nextLine();
@@ -25,6 +30,9 @@ public class DemoPhoneCalls{
             else if (ch == ('Q')) {
                 break;
             }
+            else {
+        System.out.println("Invalid input. Try again.");
+    }
 
         }
         scan.close();
