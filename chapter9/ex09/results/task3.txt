@@ -1,7 +1,7 @@
 
 Status: FAILED!
 Test: The `OutgoingPhoneCall` class implements the `PhoneCall` class's abstract methods.
-Reason: Unable to locate the following method:  OutgoingPhoneCall.getInfo()
+Reason: Unable to locate the following method:  OutgoingPhoneCall.getPhoneNumber()
 Error : class java.lang.NoSuchMethodException
 - - - - - - - - - -
 
