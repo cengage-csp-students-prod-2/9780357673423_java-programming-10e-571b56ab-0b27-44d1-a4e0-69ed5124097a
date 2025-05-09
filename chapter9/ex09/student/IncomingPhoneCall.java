@@ -18,4 +18,10 @@ public class IncomingPhoneCall extends PhoneCall{
     public double getPrice(){
         return 0.02;
     }
+
+    @Override
+    public String getPhoneNumber() {
+        return phoneNumber; // ❌ Error: phoneNumber is private
+    }
+
 }

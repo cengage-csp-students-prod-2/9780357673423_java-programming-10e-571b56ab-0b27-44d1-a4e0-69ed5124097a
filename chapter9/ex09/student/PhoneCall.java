@@ -1,6 +1,6 @@
 // Write your code here
 public abstract class PhoneCall{
-    private String phoneNumber;
+    protected String phoneNumber;
     private double price;
 
     public PhoneCall(String phone){
@@ -14,9 +14,11 @@ public abstract class PhoneCall{
     }
     
 
-    public  String getPhoneNumber(){
-        return phoneNumber;
-    }
+    // public  String getPhoneNumber(){
+    //     return phoneNumber;
+    // }
+    public abstract String getPhoneNumber();
+
     public abstract double getPrice();
     public abstract void getInfo();
 }

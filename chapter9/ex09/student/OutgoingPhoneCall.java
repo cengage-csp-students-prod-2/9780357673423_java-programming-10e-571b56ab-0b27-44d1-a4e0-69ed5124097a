@@ -4,7 +4,7 @@ public class OutgoingPhoneCall extends PhoneCall{
     private double time;
     
   
-    public OutgoingPhoneCall(String phone , double time){
+    public OutgoingPhoneCall(double time){
         super(phone);
         this.time = time;
         setPrice(time*0.04); 
@@ -18,4 +18,9 @@ public class OutgoingPhoneCall extends PhoneCall{
     public double getPrice(){
         return time *0.04;
     }
+    @Override
+    public String getPhoneNumber() {
+        return phoneNumber; // ❌ Error: phoneNumber is private
+}
+
 }
