@@ -18,7 +18,7 @@ public class DemoPhoneCalls{
                 System.out.print("Enter the phone number >> ");
                 String phone = scan.nextLine();
                 System.err.print("Enter minutes >> ");
-                double time = scan.nextDouble();
+                int time = scan.nextInt();
                 PhoneCall OPC = new OutgoingPhoneCall(time,phone);
                 OPC.getInfo();
             }

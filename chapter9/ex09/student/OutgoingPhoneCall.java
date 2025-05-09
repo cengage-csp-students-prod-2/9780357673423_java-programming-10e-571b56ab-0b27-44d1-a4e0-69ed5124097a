@@ -1,10 +1,10 @@
 // Write your code here
 
 public class OutgoingPhoneCall extends PhoneCall{
-    private double time;
+    private int time;
     
   
-    public OutgoingPhoneCall(double time, String phone ){
+    public OutgoingPhoneCall(int time, String phone ){
         super(phone);
         this.time = time;
         setPrice(time*0.04); 
