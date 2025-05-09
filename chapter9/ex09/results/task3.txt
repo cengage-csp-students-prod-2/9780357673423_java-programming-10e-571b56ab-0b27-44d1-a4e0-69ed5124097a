@@ -1,7 +1,6 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2025-05-09 01:10:30.434030
+Test: The `OutgoingPhoneCall` class sets the `price` to 4 cents per minute.
+Reason: Unable to locate the `OutgoingPhoneCall` constructor. OutgoingPhoneCall.<init>(int, java.lang.String)
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
