@@ -7,11 +7,11 @@ public class DemoPhoneCalls{
         while (true){
             System.out.print("Is this call (I)ncoming or (O)utgoing?\nOr enter Q to quit >> ");
             String input = scan.nextLine();
-            char ch = input.charAt(0);
             if (input.isEmpty()) {
-        continue; // Skip empty input
-    }
-
+                continue; // Skip empty input
+            }
+            
+            char ch = input.charAt(0);
             if (ch == ('I')){
                 System.out.print("Enter the phone number >> ");
                 String phone = scan.nextLine();
