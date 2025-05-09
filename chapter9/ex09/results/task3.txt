@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `OutgoingPhoneCall` class sets the `price` to 4 cents per minute.
-Reason: Unable to locate the `OutgoingPhoneCall` constructor. OutgoingPhoneCall.<init>(int, java.lang.String)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-09 01:21:31.928366
