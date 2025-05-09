@@ -18,5 +18,5 @@ public abstract class PhoneCall{
         return phoneNumber;
     }
     public abstract double getPrice();
-    public abstract void display();
+    public abstract void getInfo();
 }

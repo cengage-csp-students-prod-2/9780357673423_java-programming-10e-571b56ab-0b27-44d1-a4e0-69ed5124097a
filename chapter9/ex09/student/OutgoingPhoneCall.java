@@ -10,7 +10,7 @@ public class OutgoingPhoneCall extends PhoneCall{
         setPrice(time*0.04); 
     }
     @Override
-    public void display(){
+    public void getInfo(){
         System.out.println("Outgoing phone call " + this.getPhoneNumber() + " 0.04 per minute at "+ this.time + " minutes. Total is $" + this.getPrice());
     }
 

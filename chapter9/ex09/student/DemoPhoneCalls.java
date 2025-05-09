@@ -11,7 +11,7 @@ public class DemoPhoneCalls{
                 System.out.print("Enter the phone number >> ");
                 String phone = scan.nextLine();
                 PhoneCall IPC = new IncomingPhoneCall(phone);
-                IPC.display();
+                IPC.getInfo();
                 
             }
             else if (ch == ('O')){
@@ -20,7 +20,7 @@ public class DemoPhoneCalls{
                 System.err.print("Enter minutes >> ");
                 double time = scan.nextDouble();
                 PhoneCall OPC = new OutgoingPhoneCall(phone,time);
-                OPC.display();
+                OPC.getInfo();
             }
             else if (ch == ('Q')) {
                 break;

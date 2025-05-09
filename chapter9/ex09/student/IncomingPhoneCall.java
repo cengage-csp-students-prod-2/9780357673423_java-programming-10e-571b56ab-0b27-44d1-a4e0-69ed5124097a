@@ -10,7 +10,7 @@ public class IncomingPhoneCall extends PhoneCall{
     }
 
     @Override
-    public void display(){
+    public void getInfo(){
         System.out.println("Incoming phone call " + this.getPhoneNumber() + " 0.02 per call. Total is $" + this.getPrice()  );
     }
 
