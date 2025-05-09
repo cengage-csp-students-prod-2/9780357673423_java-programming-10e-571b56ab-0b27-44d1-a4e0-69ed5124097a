@@ -5,7 +5,7 @@ public class IncomingPhoneCall extends PhoneCall{
     
     public IncomingPhoneCall(String Phone){
         super(Phone);
-        setPrice = 0.02;
+        this.setPrice(0.02);
         
     }
 
