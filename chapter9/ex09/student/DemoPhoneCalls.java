@@ -9,17 +9,17 @@ public class DemoPhoneCalls{
             char ch = scan.nextLine().charAt(0);
             if (ch == ('I')){
                 System.out.print("Enter the phone number >> ");
-                String phone = scan.next();
-                IncomingPhoneCall IPC = new IncomingPhoneCall(phone);
+                String phone = scan.nextLine();
+                PhoneCall IPC = new IncomingPhoneCall(phone);
                 IPC.display();
                 
             }
             else if (ch == ('O')){
                 System.out.print("Enter the phone number >> ");
-                String phone = scan.next();
+                String phone = scan.nextLine();
                 System.err.print("Enter minutes >> ");
                 double time = scan.nextDouble();
-                OutgoingPhoneCall OPC = new OutgoingPhoneCall(phone,time);
+                PhoneCall OPC = new OutgoingPhoneCall(phone,time);
                 OPC.display();
             }
             else if (ch == ('Q')) {
@@ -27,5 +27,6 @@ public class DemoPhoneCalls{
             }
 
         }
+        scan.close();
     }
 }

@@ -12,13 +12,11 @@ public abstract class PhoneCall{
     public void setPrice(double pr){
         this.price = pr;
     }
-    public void setPhoneNumber(String phoneNumber){
-        this.phoneNumber = phoneNumber;
-    }
+    
 
     public  String getPhoneNumber(){
         return phoneNumber;
     }
-    // public abstract double getPrice();
+    public abstract double getPrice();
     public abstract void display();
 }
