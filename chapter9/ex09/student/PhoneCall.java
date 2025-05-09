@@ -9,9 +9,9 @@ public abstract class PhoneCall{
         this.price = 0.0 ;
     }
 
-    // public void setPrice(double pr){
-    //     this.price = pr;
-    // }
+    public void setPrice(double pr){
+        this.price = pr;
+    }
     public void setPhoneNumber(String phoneNumber){
         this.phoneNumber = phoneNumber;
     }
