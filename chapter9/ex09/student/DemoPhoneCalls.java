@@ -19,7 +19,7 @@ public class DemoPhoneCalls{
                 String phone = scan.nextLine();
                 System.err.print("Enter minutes >> ");
                 double time = scan.nextDouble();
-                PhoneCall OPC = new OutgoingPhoneCall(phone,time);
+                PhoneCall OPC = new OutgoingPhoneCall(time,phone);
                 OPC.getInfo();
             }
             else if (ch == ('Q')) {

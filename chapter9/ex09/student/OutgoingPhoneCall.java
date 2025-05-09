@@ -4,7 +4,7 @@ public class OutgoingPhoneCall extends PhoneCall{
     private double time;
     
   
-    public OutgoingPhoneCall(double time){
+    public OutgoingPhoneCall(double time, String phone ){
         super(phone);
         this.time = time;
         setPrice(time*0.04); 
