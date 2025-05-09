@@ -1,5 +1,5 @@
 // Write your code here
-public class PhoneCall{
+public abstract class PhoneCall{
     private String phoneNumber;
     private double price;
 
@@ -16,13 +16,9 @@ public class PhoneCall{
         this.phoneNumber = phoneNumber;
     }
 
-    public String getPhoneNumber(){
+    public  String getPhoneNumber(){
         return phoneNumber;
     }
-    public double getPrice(){
-        return price;
-    }
-    public void display(){
-        System.out.println("");
-    }
+    public abstract double getPrice();
+    public abstract void display();
 }
