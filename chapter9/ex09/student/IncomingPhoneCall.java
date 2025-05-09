@@ -11,7 +11,7 @@ public class IncomingPhoneCall extends PhoneCall{
 
     @Override
     public void display(){
-        System.out.println("Incoming phone call " + PC.getPhoneNumber() + " 0.02 per call. Total is $" + this.Price  );
+        System.out.println("Incoming phone call " + this.getPhoneNumber() + " 0.02 per call. Total is $" + this.price  );
     }
 
 }

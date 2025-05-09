@@ -11,6 +11,6 @@ public class OutgoingPhoneCall extends PhoneCall{
     }
     @Override
     public void display(){
-        System.out.println("Outgoing phone call " + PC.getPhoneNumber() + " 0.04 per minute at "+ this.time + " minutes. Total is $" + PC.getPrice()  );
+        System.out.println("Outgoing phone call " + this.getPhoneNumber() + " 0.04 per minute at "+ this.time + " minutes. Total is $" + this.price);
     }
 }
