@@ -13,7 +13,7 @@ public class InternationalDivision extends Division{
 
     @Override
     public void display(){
-        System.out.print("International Division: Division " + this.getDivisionTitle() + " Acct# " + this.getAcctNum());
+        System.out.print("International Division: Division " + this.getDivisionTitle() + " Acct# " + this.getAcctNum() + "\nCountry is " + this.country + "\nLanguage Spoken is " + this.language);
     }
     
 

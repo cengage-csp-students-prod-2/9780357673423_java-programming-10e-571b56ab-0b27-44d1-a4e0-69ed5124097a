@@ -22,7 +22,7 @@ public class UseDivision {
         else if(ch == 'I'){
             System.out.print("Enter division name >> ");
             String div = scan.nextLine();
-            System.out.print("Enter acct number");
+            System.out.print("Enter acct number >> ");
             String acc = scan.nextLine();
             System.out.print("Enter country >> ");
             String ct = scan.nextLine();
@@ -32,6 +32,7 @@ public class UseDivision {
             division.display();
         }
 
+        
         }
     }
 
