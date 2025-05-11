@@ -1,7 +1,12 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2025-05-11 15:54:11.279100
+Test: The `ElectricBlanket` class contains the `getHasAutoShutoff()` method.
+Reason: Unable to locate the following method:  ElectricBlanket.getHasAutoShutoff()
+Error : class java.lang.NoSuchMethodException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `ElectricBlanket` class contains the `setHasAutoShutoff` method.
+Reason: The `setHasAutoShutoff()` should add $5.75 to the price. The value of the `price` data field was incorrect. expected:<35.75> but was:<5.75>
+Error : class java.lang.AssertionError
+- - - - - - - - - -
