@@ -1,6 +1,6 @@
 
 Status: FAILED!
 Test: The `Blanket` class contains the `setSize()` method.
-Reason: The `setSize()` method should updated the `price` data field. expected:<70.0> but was:<40.0>
+Reason: The `setSize()` method should updated the `price` data field. expected:<70.0> but was:<95.0>
 Error : class java.lang.AssertionError
 - - - - - - - - - -
