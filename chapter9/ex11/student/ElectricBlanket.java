@@ -41,10 +41,10 @@ public class ElectricBlanket extends Blanket{
     
 
     @Override
-public String toString() {
-    String base = super.toString();
-    base += hasAutoShutoff ? ". Blanket has automatic shutoff and " : ". no automatic shutoff and ";
-    base += settings + " setting" + (settings != 1 ? "s." : ".");
-    return base;
-}
+    public String toString() {
+        String base = super.toString();
+        base += hasAutoShutoff ? ". Blanket has automatic shutoff and " : ". no automatic shutoff and ";
+        base += settings + " setting" + (settings != 1 ? "s." : ".");
+        return base;
+    }
 }
