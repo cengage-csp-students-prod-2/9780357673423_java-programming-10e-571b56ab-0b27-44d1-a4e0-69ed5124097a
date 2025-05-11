@@ -70,13 +70,14 @@ public   class Blanket{
 
     public void updateprice(){
         switch(size) {
+        case "twin": price += 0.00; break;
         case "double": price += 10.00; break;
         case "queen": price += 25.00; break;
         case "king": price += 40.00; break;
     }
     
     switch(material) {
-        case "cotton": price += 0; break;
+        case "cotton": price += 0.00; break;
         case "wool": price += 20; break;
         case "cashmere": price += 45; break;
     }
