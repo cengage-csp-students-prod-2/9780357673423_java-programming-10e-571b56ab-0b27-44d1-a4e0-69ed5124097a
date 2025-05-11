@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `ElectricBlanket` class contains the `setSettings` method.
-Reason: The value provided to the `setSettings()` method was too high. The `settings` data field should default to the '1'. expected:<1> but was:<4>
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-11 16:20:35.910840
