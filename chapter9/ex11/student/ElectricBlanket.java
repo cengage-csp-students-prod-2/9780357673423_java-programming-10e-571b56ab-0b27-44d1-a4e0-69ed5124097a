@@ -5,6 +5,7 @@ public class ElectricBlanket extends Blanket{
     
     
     public ElectricBlanket(){
+        super();
         settings = 1;
         hasAutoShutoff = false;
 
@@ -14,9 +15,7 @@ public class ElectricBlanket extends Blanket{
         if ((st >= 1) && (st <=5)) {
             settings = st;
         }
-        else{
-            ElectricBlanket();
-        }
+        
     }
 
     public void setHasAutoShutoff(boolean isit){
@@ -33,14 +32,13 @@ public class ElectricBlanket extends Blanket{
     public boolean hasAutoShutoff(){
         return hasAutoShutoff;
     }
-    @Override
-    public void toString(){
-        if (hasAutoShutoff){
-        System.out.println(this.getSize() + " size " + this.getColor() + " " + this.material  + " blanket. Price $" + this.price +". Blanket has automatic shutoff and " + this.getSettings() + " setting.");
-   }
-   else{
-        System.out.println(this.getSize() + " size " + this.getColor() + " " + this.material  + " blanket. Price $" + this.price +". no automatic shutoff and " + this.getSettings() + " setting.");
-   }
+    
 
+    @Override
+public String toString() {
+    String base = super.toString();
+    base += hasAutoShutoff ? ". Blanket has automatic shutoff and " : ". no automatic shutoff and ";
+    base += settings + " setting" + (settings != 1 ? "s." : ".");
+    return base;
 }
 }

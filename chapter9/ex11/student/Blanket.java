@@ -1,5 +1,5 @@
 // Write your code here
-public  abstract class Blanket{
+public   class Blanket{
     protected String size;
     protected String color;
     protected String material;
@@ -25,39 +25,44 @@ public  abstract class Blanket{
         return price;
     }
 
-    public void setSize(String sz){
-        size = sz;
-        if (size.equals("DOUBLE")){
-            price = price + 10;
-        }
-        else if (size.equals("QUEEN")){
-            price = price + 25;
-        }
-        else if (size.equals("KING")){
-            price = price + 40;
-        }
-        
-        
+    public void setSize(String sz) {
+    sz = sz.toLowerCase();
+    switch(sz) {
+        case "twin": price = 30.00; break;
+        case "double": price = 40.00; break;
+        case "queen": price = 55.00; break;
+        case "king": price = 70.00; break;
+        default:
+            size = "twin"; color = "white"; material = "cotton"; price = 30.00;
+            return;
     }
+    size = sz;
+}
     public void setColor(String cl){
         color = cl;
     }
-    public void setMaterial(String  mt){
-        material = mt.toUpperCase();
-        if (material.equals("WOOL")){
-            price = price + 20;
-        }
-        else if (material.equals("CASHMERE")){
-            price = price + 45;
-        }
-        
-        
+
+    
+    public void setMaterial(String mt) {
+    mt = mt.toLowerCase();
+    switch(mt) {
+        case "cotton": price += 0; break;
+        case "wool": price += 20; break;
+        case "cashmere": price += 45; break;
+        default:
+            size = "twin"; color = "white"; material = "cotton"; price = 30.00;
+            return;
     }
+    material = mt;
+}
+
     
 
 
 
-    public  abstract void toString();
+    public String toString() {
+    return size + " size " + color + " " + material + " blanket. Price $" + price;
+    }
     
 
 }

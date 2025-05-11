@@ -7,7 +7,8 @@ public class DemoBlankets{
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Data for Electric Blanket:");
-        Blanket blanket = new ElectricBlanket() ;
+        blanket.toString();
+        ElectricBlanket blanket = new ElectricBlanket() ;
         blanket.toString();
 
         
@@ -32,10 +33,11 @@ public class DemoBlankets{
         blanket.toString();
 
         System.out.print("Does blanket have auto shutoff? Y or N >> ");
+        scan.nextLine();
         String s = scan.nextLine();
         char ch = s.charAt(0);
         if (ch == ('Y')){
-            blanket.setSettings(true);
+            blanket.setHasAutoShutoff(true);
         } 
 
         blanket.toString();
@@ -76,9 +78,9 @@ public class DemoBlankets{
 
         System.out.print("Does blanket have auto shutoff? Y or N >> ");
         s = scan.nextLine();
-        ch = s.charAt(s);
+        ch = s.charAt(0);
         if (ch == ('Y')){
-            blanket.setSettings(true);
+            blanket.setHasAutoShutoff(true);
         } 
 
         blanket.toString();
