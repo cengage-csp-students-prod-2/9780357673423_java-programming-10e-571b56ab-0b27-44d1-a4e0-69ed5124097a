@@ -15,12 +15,16 @@ public class ElectricBlanket extends Blanket{
         if ((st >= 1) && (st <=5)) {
             settings = st;
         }
+        else{
+            settings = 1;
+            hasAutoShutoff = false;
+        }
         
     }
 
     public void setHasAutoShutoff(boolean isit){
         if (isit){
-            this.price = price + 5.75;
+            this.price = (this.price + 5.75);
             hasAutoShutoff = isit;
         }
 

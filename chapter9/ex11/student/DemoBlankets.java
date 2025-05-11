@@ -7,7 +7,7 @@ public class DemoBlankets{
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Data for Electric Blanket:");
-        blanket.toString();
+        System.out.println(blanket.toString());
         ElectricBlanket blanket = new ElectricBlanket() ;
         blanket.toString();
 
@@ -15,22 +15,26 @@ public class DemoBlankets{
         System.out.print("Enter material >> ");
         String mt = scan.nextLine();
         blanket.setMaterial(mt);
-        blanket.toString();
+        System.out.println(blanket.toString());
+
         
         System.out.print("Enter size >> ");
         String sz = scan.nextLine();
         blanket.setSize(sz);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
         System.out.print("Enter size >> ");
         String cl = scan.nextLine();
         blanket.setColor(cl);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
         System.out.print("Enter number of settings >> ");
         int st = scan.nextInt();
         blanket.setSettings(st);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
         System.out.print("Does blanket have auto shutoff? Y or N >> ");
         scan.nextLine();
@@ -40,7 +44,8 @@ public class DemoBlankets{
             blanket.setHasAutoShutoff(true);
         } 
 
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
 
 
@@ -52,7 +57,8 @@ public class DemoBlankets{
             break;
         }
         blanket.setMaterial(mt);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
         
         System.out.print("Enter size >> ");
         sz = scan.nextLine();
@@ -60,7 +66,8 @@ public class DemoBlankets{
             break;
         }
         blanket.setSize(sz);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
         System.out.print("Enter size >> ");
         cl = scan.nextLine();
@@ -68,13 +75,15 @@ public class DemoBlankets{
             break;
         }
         blanket.setColor(cl);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
         System.out.print("Enter number of settings >> ");
         st = scan.nextInt();
         
         blanket.setSettings(st);
-        blanket.toString();
+                System.out.println(blanket.toString());
+
 
         System.out.print("Does blanket have auto shutoff? Y or N >> ");
         s = scan.nextLine();
@@ -83,7 +92,8 @@ public class DemoBlankets{
             blanket.setHasAutoShutoff(true);
         } 
 
-        blanket.toString();
+                System.out.println(blanket.toString());
+
     }
         scan.close();
     }
