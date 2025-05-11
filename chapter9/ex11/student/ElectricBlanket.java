@@ -17,7 +17,6 @@ public class ElectricBlanket extends Blanket{
         }
         else{
             settings = 1;
-            hasAutoShutoff = false;
         }
         
     }
