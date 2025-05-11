@@ -3,7 +3,7 @@ public class ElectricBlanket extends Blanket {
     protected boolean hasAutoShutoff;
 
     public ElectricBlanket() {
-        super();
+        super(); // <<-- This is crucial
         settings = 1;
         hasAutoShutoff = false;
     }
