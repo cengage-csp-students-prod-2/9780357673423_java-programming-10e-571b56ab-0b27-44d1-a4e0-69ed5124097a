@@ -7,9 +7,9 @@ public class DemoBlankets{
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Data for Electric Blanket:");
-        System.out.println(blanket.toString());
         ElectricBlanket blanket = new ElectricBlanket() ;
-        blanket.toString();
+        System.out.println(blanket.toString());
+        
 
         
         System.out.print("Enter material >> ");
