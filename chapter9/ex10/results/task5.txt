@@ -1,25 +1,6 @@
 
 Status: FAILED!
 Test: The `UseDivision` program accepts user input and displays details about the division entered.
-Reason: Your program did not accept the simulated input.
-The simulated input is as follows: 
-D
-Logistics
-32547124578
-Maine
-Make sure your program follows the example shown in the instructions. For input string: "32547124578"
-Error : class java.util.InputMismatchException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `UseDivision` program accepts user input and displays details about the division entered.
-Reason: Your program did not accept the simulated input.
-The simulated input is as follows: 
-I
-Support
-3611456632
-Poland
-Polish
-Make sure your program follows the example shown in the instructions. For input string: "3611456632"
-Error : class java.util.InputMismatchException
+Reason: In this simulation, a support division located in Poland with an account number 3611456632 was entered. Unable to locate 'Poland' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -

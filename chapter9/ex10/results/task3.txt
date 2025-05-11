@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `DomesticDivision` class requires three arguments.
-Reason: The `DomesticDivision` constructor should should require three arguments, two required by the `Division` class and one required by the `DomesticDivision` subclass. DomesticDivision.<init>(java.lang.String, java.lang.String, java.lang.String)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-11 02:46:17.363631
