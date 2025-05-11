@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `UseDivision` program accepts user input and displays details about the division entered.
-Reason: In this simulation, a support division located in Poland with an account number 3611456632 was entered. Unable to locate 'Poland' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-11 02:50:28.043974
