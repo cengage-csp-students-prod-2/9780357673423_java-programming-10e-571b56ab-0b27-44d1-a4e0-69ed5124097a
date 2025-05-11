@@ -11,12 +11,12 @@ public class UseDivision {
         if (ch == 'D'){
             System.out.print("Enter division name >> ");
             String div = scan.nextLine();
-            System.out.print("Enter acct number");
+            System.out.print("Enter acct number >> ");
             int acc = scan.nextInt();
-            scan.next();
             System.out.print("Enter state >> ");
+            scan.next();
             String st = scan.nextLine();
-            Division division = new DomesticDivision(st,div,acc );
+            Division division = new DomesticDivision(acc,div,st );
             division.display();
         }
 
@@ -25,11 +25,12 @@ public class UseDivision {
             String div = scan.nextLine();
             System.out.print("Enter acct number");
             int acc = scan.nextInt();
+            scan.nextLine();
             System.out.print("Enter country >> ");
             String ct = scan.nextLine();
             System.out.print("Enter language >> ");
             String lg = scan.nextLine();
-            Division division = new InternationalDivision(ct,lg,div,acc );
+            Division division = new InternationalDivision(acc, div, ct,lg );
             division.display();
         }
 
