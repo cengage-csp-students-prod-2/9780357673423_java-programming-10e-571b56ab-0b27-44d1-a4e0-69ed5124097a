@@ -33,7 +33,7 @@ public class DemoBlankets{
 
         System.out.print("Does blanket have auto shutoff? Y or N >> ");
         String s = scan.nextLine();
-        char ch = s.charAt(s);
+        char ch = s.charAt(0);
         if (ch == ('Y')){
             blanket.setSettings(true);
         } 
