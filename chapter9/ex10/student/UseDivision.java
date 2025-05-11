@@ -32,7 +32,7 @@ public class UseDivision {
             division.display();
         }
 
-        
+        scan.close();
         }
     }
 
