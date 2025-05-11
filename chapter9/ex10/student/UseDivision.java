@@ -12,9 +12,8 @@ public class UseDivision {
             System.out.print("Enter division name >> ");
             String div = scan.nextLine();
             System.out.print("Enter acct number >> ");
-            int acc = scan.nextInt();
+            String acc = scan.nextLine();
             System.out.print("Enter state >> ");
-            scan.next();
             String st = scan.nextLine();
             Division division = new DomesticDivision(acc,div,st );
             division.display();
@@ -24,8 +23,7 @@ public class UseDivision {
             System.out.print("Enter division name >> ");
             String div = scan.nextLine();
             System.out.print("Enter acct number");
-            int acc = scan.nextInt();
-            scan.nextLine();
+            String acc = scan.nextLine();
             System.out.print("Enter country >> ");
             String ct = scan.nextLine();
             System.out.print("Enter language >> ");

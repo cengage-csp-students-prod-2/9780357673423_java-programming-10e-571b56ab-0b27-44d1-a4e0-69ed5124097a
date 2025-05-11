@@ -1,9 +1,9 @@
 // Write your code here
 public abstract class Division{
     protected String divisionTitle;
-    protected int acctNum;
+    protected String acctNum;
 
-    public Division(String dt, int acc){
+    public Division(String dt, String acc){
         divisionTitle = dt;
         this.acctNum = acc;
 
@@ -14,7 +14,7 @@ public abstract class Division{
         return divisionTitle;
         
     }
-    public int getAcctNum(){
+    public String getAcctNum(){
         return acctNum;
     }
 

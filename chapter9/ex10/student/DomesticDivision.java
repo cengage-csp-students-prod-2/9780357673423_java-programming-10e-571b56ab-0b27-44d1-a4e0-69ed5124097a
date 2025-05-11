@@ -2,7 +2,7 @@
 public class DomesticDivision extends Division{
 
     protected String state;
-    public DomesticDivision( int account ,String div, String st){
+    public DomesticDivision( String account ,String div, String st){
         super(div,account);
         state = st;
     }
