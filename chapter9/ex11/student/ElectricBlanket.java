@@ -22,18 +22,20 @@ public class ElectricBlanket extends Blanket{
         
     }
 
-    public void setHasAutoShutoff(boolean isit){
-        if (isit){
-            this.price = (this.price + 5.75);
-            hasAutoShutoff = isit;
-        }
-
+    public void setHasAutoShutoff(boolean shutoff) {
+    if (shutoff && !hasAutoShutoff) {
+        price += 5.75;
+    } else if (!shutoff && hasAutoShutoff) {
+        price -= 5.75;
     }
+    hasAutoShutoff = shutoff;
+}
+
 
     public int getSettings(){
         return settings;
     }
-    public boolean hasAutoShutoff(){
+    public boolean getHasAutoShutoff(){
         return hasAutoShutoff;
     }
     

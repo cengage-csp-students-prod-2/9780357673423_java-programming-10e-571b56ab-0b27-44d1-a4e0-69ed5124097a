@@ -70,7 +70,6 @@ public   class Blanket{
 
     public void updateprice(){
         switch(size) {
-        case "twin": price = 30.00; break;
         case "double": price += 10.00; break;
         case "queen": price += 25.00; break;
         case "king": price += 40.00; break;
