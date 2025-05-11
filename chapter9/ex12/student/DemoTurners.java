@@ -21,6 +21,6 @@ public class DemoTurners{
             p.turn();
 
         }
-
+        scan.close();
     }
 }
