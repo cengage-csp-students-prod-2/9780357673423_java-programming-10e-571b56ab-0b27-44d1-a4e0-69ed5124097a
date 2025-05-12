@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class UseGeometric{
 
     public static void main(String[] args){
-        ArrayList[] arrayList = new ArrayList(5);
+        ArrayList[] arrayList = new ArrayList[5];
+        Square[] sq = new Square[5] ;
+        Triangle[] t = new Triangle[5];
         Scanner scan = new Scanner(System.in) ;
         double height;
         double width;
@@ -14,17 +16,19 @@ public class UseGeometric{
         System.out.print("Is this a (S)quare or a (T)riangle? >> ");
         fig = scan.nextLine();
         if (fig.charAt(0) == 'S'){
-
+            System.out.print("Enter height >> ");
             height = scan.nextDouble();
-            Square sq = new Square(height , height , fig);
-            arrayList[i] = sq;
+            sq[i] = new Square(height , height , fig);
+            
 
         }
         else{
+            System.out.print("Enter height >> ");
             height = scan.nextDouble();
+            System.out.print("Enter width >> ");
             width = scan.nextDouble();
-            Triangle t = new Triangle(height, width , fig);
-            arrayList[i] = t;
+            t[i] = new Triangle(height, width , fig);
+            
 
 
         }
@@ -33,7 +37,13 @@ public class UseGeometric{
 
         for (int i = 0; i <5 ; i ++){
 
-            (arrayList[i]).display() ;
+            if (sq[i] != null) {
+                sq[i].display() ;
+            }
+            else{
+                t[i].display();
+            }
+            
 
 
         }

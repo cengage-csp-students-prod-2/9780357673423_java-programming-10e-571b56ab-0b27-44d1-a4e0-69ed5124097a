@@ -5,7 +5,7 @@ public class Triangle extends GeometricFigure{
 
     public Triangle(double h , double  w, String f){
 
-        super(f, d, w);
+        super(h, w, f);
 
     }
     @Override
