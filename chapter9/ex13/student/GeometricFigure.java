@@ -11,7 +11,7 @@ public abstract class GeometricFigure{
         width = w ;
     }
 
-    public abstract void figureArea();
+    public abstract double figureArea();
 
     public  double getHeight(){
         return height;

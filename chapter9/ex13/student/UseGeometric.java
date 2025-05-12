@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class UseGeometric{
 
     public static void main(String[] args){
-        ArrayList[] arrayList = new ArrayList[5];
+        // ArrayList[] arrayList = new ArrayList[5];
         Square[] sq = new Square[5] ;
         Triangle[] t = new Triangle[5];
         Scanner scan = new Scanner(System.in) ;

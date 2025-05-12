@@ -7,10 +7,11 @@ public class Square extends GeometricFigure{
     public Square(double h , double  w, String f){
 
         super(h, w, f);
+        figureArea(h,w);
 
     }
-    @Override
-    public void figureArea(){
+   
+    public void figureArea(double h , double w){
 
         area = this.getHeight() * this.getWidth() ;
     }
@@ -22,6 +23,4 @@ public class Square extends GeometricFigure{
     public void display(){
         System.out.println("The Square with height = " + this.getHeight() + "and with width = " + this.getWidth() + " has an area of " + this.getArea() );
     }
-
-
 }
