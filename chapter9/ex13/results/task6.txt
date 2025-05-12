@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: Create the `SidedObject` interface.
-Reason: Unable to locate the `SidedObject` interface. SidedObject
-Error : class java.lang.ClassNotFoundException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-12 06:40:24.310574
