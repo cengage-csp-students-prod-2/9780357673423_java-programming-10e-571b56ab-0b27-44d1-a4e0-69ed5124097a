@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: Create the `Triangle2` class.
+Reason: Unable to locate the `Triangle2` class. Triangle2
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `Triangle2` class contains the `displaySides()` method.
+Reason: Triangle2
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -

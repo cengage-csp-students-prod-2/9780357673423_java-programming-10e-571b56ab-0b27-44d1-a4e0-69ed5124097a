@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `Square2` class contains the `displaySides()` method.
+Reason: Square2
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: Create the `Square2` class.
+Reason: Unable to locate the `Square2` class. Square2
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -

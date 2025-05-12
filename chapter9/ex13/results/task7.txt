@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: Create the `GeometricFigure2` class.
+Reason: Unable to locate the `GeometricFigure2` class. GeometricFigure2
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `GeometricFigure2` class constructor is defined as follows: `GeometricFigure2(int, int, String)`.
+Reason: GeometricFigure2
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -
