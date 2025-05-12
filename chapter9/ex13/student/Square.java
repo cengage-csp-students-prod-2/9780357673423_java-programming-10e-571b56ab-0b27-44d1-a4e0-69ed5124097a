@@ -7,13 +7,13 @@ public class Square extends GeometricFigure{
     public Square(int h ){
 
         super(h, h, "square");
-        area  = figureArea();
+        area  = figureArea(h, h);
 
     }
    @Override
-    public double figureArea(){
+    public double figureArea(int h , int w){
 
-        return this.getHeight() * this.getWidth() ;
+        return h * w;
 
     }
 

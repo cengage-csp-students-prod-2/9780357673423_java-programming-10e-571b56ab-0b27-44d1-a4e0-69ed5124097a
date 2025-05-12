@@ -6,14 +6,14 @@ public class Triangle extends GeometricFigure{
     public Triangle(int h , int  w){
 
         super(h, w, "triangle");
-        area = figureArea();
+        area = figureArea(h, w);
 
 
     }
    @Override
-    public double figureArea(){
+    public double figureArea(int h , int w){
 
-        return  (this.getHeight() * this.getWidth()) / 2;
+        return  (h * w) / 2;
     }
 
 
