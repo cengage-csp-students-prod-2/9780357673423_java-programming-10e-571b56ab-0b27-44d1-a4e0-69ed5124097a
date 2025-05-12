@@ -1,31 +1,22 @@
-// Write your code here
-// Write your code here
+public class Square2 extends GeometricFigure2 {
+    private double area;
 
-
-public class Square2 extends GeometricFigure2{
-    protected double area;
-
-    public Square2(double h ){
-
-        super(h, h, "square");
+    public Square2(int h) {
+        super(h, h, "Square");
         area = figureArea();
-
-    }
-   @Override
-    public double figureArea(){
-
-        return this.getHeight() * this.getWidth() ;
-
     }
 
-    public void displaySides(){
-        System.out.println("There are one sides" + height);
-
+    @Override
+    public double figureArea() {
+        return height * width;
     }
 
-    public double getArea(){
-        return area ;
+    @Override
+    public void displaySides() {
+        System.out.println("A square has 4 sides.");
     }
 
-    
+    public double getArea() {
+        return area;
+    }
 }

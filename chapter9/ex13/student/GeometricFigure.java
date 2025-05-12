@@ -1,21 +1,21 @@
-public abstract class GeometricFigure {
+public abstract class GeometricFigure2 implements SidedObject {
     protected String figure;
-    protected double height;
-    protected double width;
+    protected int height;
+    protected int width;
 
-    public GeometricFigure(double h, double w, String f) {
+    public GeometricFigure2(int h, int w, String f) {
+        figure = f;
         height = h;
         width = w;
-        figure = f;
     }
 
     public abstract double figureArea();
 
-    public double getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public double getWidth() {
+    public int getWidth() {
         return width;
     }
 
@@ -25,5 +25,13 @@ public abstract class GeometricFigure {
 
     public void setFigure(String fig) {
         this.figure = fig;
+    }
+
+    public void setHeight(int h) {
+        this.height = h;
+    }
+
+    public void setWidth(int w) {
+        this.width = w;
     }
 }
