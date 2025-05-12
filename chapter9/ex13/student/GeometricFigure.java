@@ -1,28 +1,29 @@
-// Write your code here
-public abstract class GeometricFigure{
+public abstract class GeometricFigure {
     protected String figure;
-    protected int height;
-    protected int width;
+    protected double height;
+    protected double width;
 
-    public GeometricFigure(int h , int  w, String f){
-
-        figure = f;
+    public GeometricFigure(double h, double w, String f) {
         height = h;
-        width = w ;
+        width = w;
+        figure = f;
     }
 
     public abstract double figureArea();
 
-    public  int getHeight(){
+    public double getHeight() {
         return height;
-
     }
-    public int getWidth(){
+
+    public double getWidth() {
         return width;
     }
-    public String getFigure(){
+
+    public String getFigure() {
         return figure;
     }
 
-    
+    public void setFigure(String fig) {
+        this.figure = fig;
+    }
 }
