@@ -1,10 +1,10 @@
 // Write your code here
 public abstract class GeometricFigure{
     protected String figure;
-    protected double height;
-    protected double width;
+    protected int height;
+    protected int width;
 
-    public GeometricFigure(double h , double  w, String f){
+    public GeometricFigure(int h , int  w, String f){
 
         figure = f;
         height = h;
@@ -13,24 +13,16 @@ public abstract class GeometricFigure{
 
     public abstract double figureArea();
 
-    public  double getHeight(){
+    public  int getHeight(){
         return height;
 
     }
-    public double getWidth(){
+    public int getWidth(){
         return width;
     }
     public String getFigure(){
         return figure;
     }
 
-    public void setFigure(String fig){
-        this.figure = fig;
-    }public void setHeight( double h){
-        this.height = h;
-
-    }public void setWidth( double w){
-        this.width = w;
-
-    }
+    
 }

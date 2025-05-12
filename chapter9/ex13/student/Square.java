@@ -4,7 +4,7 @@
 public class Square extends GeometricFigure{
     protected double area;
 
-    public Square(double h ){
+    public Square(int h ){
 
         super(h, h, "square");
         area  = figureArea();

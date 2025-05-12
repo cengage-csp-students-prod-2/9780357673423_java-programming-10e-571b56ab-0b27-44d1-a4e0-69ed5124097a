@@ -10,14 +10,16 @@ public class UseGeometric {
             String type = scan.nextLine().trim().toUpperCase();
             if (type.equals("S")) {
                 System.out.print("Enter height >> ");
-                double h = scan.nextDouble();
+                int h = scan.nextInt();
                 scan.nextLine(); // consume newline
                 figures[i] = new Square(h);
             } else if (type.equals("T")) {
                 System.out.print("Enter height >> ");
-                double h = scan.nextDouble();
-                System.out.print("Enter width >> ");
-                double w = scan.nextDouble();
+                int h = scan.nextInt();
+
+                System.out.print("Enter width >> ");                
+                int w = scan.nextInt();
+
                 scan.nextLine(); // consume newline
                 figures[i] = new Triangle(h, w);
             } else {

@@ -3,7 +3,7 @@
 public class Triangle extends GeometricFigure{
     protected double area;
 
-    public Triangle(double h , double  w){
+    public Triangle(int h , int  w){
 
         super(h, w, "triangle");
         area = figureArea();
