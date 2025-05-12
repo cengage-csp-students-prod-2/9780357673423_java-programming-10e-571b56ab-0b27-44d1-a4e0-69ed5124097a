@@ -1,12 +1,7 @@
 
 Status: FAILED!
-Test: The `UseGeometric` program accepts user input and displays the area for each geometric shape.
-Reason: There was an issue simulating the user input for your program. Make sure your program follows the example shown in the instructions. String index out of range: 0
-Error : class java.lang.StringIndexOutOfBoundsException
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `UseGeometric` program accepts user input and displays the area for each geometric shape.
-Reason: There was an issue simulating the user input for your program. Make sure your program follows the example shown in the instructions. String index out of range: 0
-Error : class java.lang.StringIndexOutOfBoundsException
-- - - - - - - - - -
+Check: 1
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the java files.
+Timestamp: 2025-05-12 05:56:05.903533
