@@ -1,12 +1,7 @@
 
 Status: FAILED!
-Test: The `UseGeometric` program accepts user input and displays the area for each geometric shape.
-Reason: In this simulation, a triangle with a height of 17 and a width of 17 was entered. Unable to find the area of '144.5' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `UseGeometric` program accepts user input and displays the area for each geometric shape.
-Reason: In this simulation, a triangle with a height of 23 and a width of 21 was entered. Unable to find the area of '241.5' in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Check: 1
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the java files.
+Timestamp: 2025-05-12 07:24:34.877446
