@@ -12,7 +12,7 @@ public abstract class GeometricFigure2{
     }
 
     public abstract double figureArea();
-    public abstract displaySides();
+    public abstract void displaySides();
 
     public  double getHeight(){
         return height;
@@ -21,7 +21,7 @@ public abstract class GeometricFigure2{
     public double getWidth(){
         return width;
     }
-    public String figure(){
+    public String getFigure(){
         return figure;
     }
 

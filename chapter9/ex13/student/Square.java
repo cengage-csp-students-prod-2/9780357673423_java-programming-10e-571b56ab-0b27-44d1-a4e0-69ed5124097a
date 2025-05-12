@@ -4,23 +4,23 @@
 public class Square extends GeometricFigure{
     protected double area;
 
-    public Square(double h , double  w, String f){
+    public Square(double h ){
 
-        super(h, w, f);
-        figureArea(h,w);
+        super(h, h, "square");
+        area  = figureArea();
 
     }
-   
-    public void figureArea(double h , double w){
+   @Override
+    public double figureArea(){
 
-        area = this.getHeight() * this.getWidth() ;
+        return this.getHeight() * this.getWidth() ;
+        
+
     }
 
     public double getArea(){
         return area ;
     }
 
-    public void display(){
-        System.out.println("The Square with height = " + this.getHeight() + "and with width = " + this.getWidth() + " has an area of " + this.getArea() );
-    }
+    
 }

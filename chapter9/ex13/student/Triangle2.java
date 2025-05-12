@@ -3,20 +3,21 @@
 public class Triangle2 extends GeometricFigure2{
     protected double area;
 
-    public Triangle2(double h , double  w, String f){
+    public Triangle2(double h , double  w){
 
-        super(h, w, f);
-        figureArea(h,w);
+        super(h, w, "triangle");
+        area = figureArea();
 
 
     }
-   
-    public void figureArea(double h , double w){
+    @Override
+    public double figureArea(){
 
-        area = this.getHeight() * this.getWidth() / 2;
+       return  (this.getHeight() * this.getWidth() )/ 2;
+
     }
     public void displaySides(){
-        System.out.println("There are two sides");
+        System.out.println("There are two sides" + height , width);
 
     }
 
@@ -24,8 +25,6 @@ public class Triangle2 extends GeometricFigure2{
         return area ;
     }
 
-    public void display(){
-        System.out.println("The Triangle with height = " + this.getHeight() + "and with width = " + this.getWidth() + " has an area of " + this.getArea() );
-    }
+   
     
 }

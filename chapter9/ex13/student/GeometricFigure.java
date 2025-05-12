@@ -20,7 +20,7 @@ public abstract class GeometricFigure{
     public double getWidth(){
         return width;
     }
-    public String figure(){
+    public String getFigure(){
         return figure;
     }
 
