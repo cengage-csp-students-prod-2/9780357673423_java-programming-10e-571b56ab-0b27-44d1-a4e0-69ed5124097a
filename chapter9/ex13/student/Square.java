@@ -14,7 +14,6 @@ public class Square extends GeometricFigure{
     public double figureArea(){
 
         return this.getHeight() * this.getWidth() ;
-        
 
     }
 

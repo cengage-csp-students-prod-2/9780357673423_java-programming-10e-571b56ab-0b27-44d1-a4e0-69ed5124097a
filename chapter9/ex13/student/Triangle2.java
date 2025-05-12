@@ -17,7 +17,7 @@ public class Triangle2 extends GeometricFigure2{
 
     }
     public void displaySides(){
-        System.out.println("There are two sides" + height , width);
+        System.out.print("There are two sides" + height  +" "+ width);
 
     }
 
