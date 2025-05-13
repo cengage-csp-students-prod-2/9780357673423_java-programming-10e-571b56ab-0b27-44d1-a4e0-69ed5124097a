@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `GeometricFigure2` class constructor is defined as follows: `GeometricFigure2(int, int, String)`.
-Reason: The `GeometricFigure2` class constructor should be defined as follows: `GeometricFigure2(int, int, String)`. GeometricFigure2.<init>(int, int, java.lang.String)
-Error : class java.lang.NoSuchMethodException
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-13 06:49:59.738156
