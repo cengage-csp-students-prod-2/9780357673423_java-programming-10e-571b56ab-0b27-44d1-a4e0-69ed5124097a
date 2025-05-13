@@ -1,6 +1,6 @@
 
-Status: FAILED!
-Test: The `ElectricBlanket` class contains the `setHasAutoShutoff` method.
-Reason: The `setHasAutoShutoff()` should add $5.75 to the price. The value of the `price` data field was incorrect. expected:<35.75> but was:<5.75>
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2025-05-13 06:35:09.331899
