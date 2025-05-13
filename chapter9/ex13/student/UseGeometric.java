@@ -1,39 +1,42 @@
-import java.util.Scanner;
-
-public class UseGeometric {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        GeometricFigure[] figures = new GeometricFigure[5];
-
-        for (int i = 0; i < 5; i++) {
-            System.out.print("Is this a (S)quare or a (T)riangle? >> ");
-            String type = scan.nextLine().trim().toUpperCase();
-            if (type.equals("S")) {
-                System.out.print("Enter height >> ");
-                double h = scan.nextDouble();
-                scan.nextLine(); // consume newline
-                figures[i] = new Square(h);
-            } else if (type.equals("T")) {
-                System.out.print("Enter height >> ");
-                double h = scan.nextDouble();
-                System.out.print("Enter width >> ");
-                double w = scan.nextDouble();
-                scan.nextLine(); // consume newline
-                figures[i] = new Triangle(h, w);
-            } else {
-                System.out.println("Invalid input. Skipping.");
-                i--; // retry
-                continue;
-            }
-        }
-
-        for (GeometricFigure g : figures) {
-            System.out.println("The " + g.getFigure() +
-                " with height = " + g.getHeight() +
-                " and with width = " + g.getWidth() +
-                " has an area of " + g.figureArea());
-        }
-
-        scan.close();
-    }
+import java.util.*;
+public class UseGeometric
+{
+   public static void main(String[] args)
+   {
+      Scanner kb = new Scanner(System.in);
+      double area;
+      int height = 0;
+      int width = 0;
+      int x;
+      String figureType;
+      GeometricFigure[] figures = new GeometricFigure[5];
+      for(x = 0; x < figures.length; ++x)
+      {
+         System.out.print("Is this a (S)quare or a (T)riangle? >> ");
+         figureType = kb.nextLine();
+         System.out.print("Enter height >> ");
+         height = kb.nextInt();
+         kb.nextLine();
+         if(!figureType.equals("S"))
+         {
+            System.out.print("Enter width >> ");
+            width = kb.nextInt();
+            kb.nextLine();
+         }
+         if(figureType.equals("S"))
+            figures[x] = new Square(height);
+         else
+            figures[x] = new Triangle(height, width);
+       }
+       for(x = 0; x < figures.length; x++)
+       {
+          height = figures[x].getHeight();
+          width = figures[x].getWidth();
+          figureType = figures[x].getFigure();
+          area = figures[x].figureArea(height, width);
+          System.out.println("The "+ figureType + " with height = " +
+             height + " and with width = " + width +
+            " has an area of " + area);
+       }
+   }
 }

@@ -1,17 +1,13 @@
-public class Triangle extends GeometricFigure {
-    protected double area;
-
-    public Triangle(double h, double w) {
-        super(h, w, "Triangle");
-        area = figureArea();
-    }
-
-    @Override
-    public double figureArea() {
-        return (height * width) / 2;
-    }
-
-    public double getArea() {
-        return area;
-    }
+public class Triangle extends GeometricFigure
+{
+   private double area;
+   public Triangle(int w, int h)
+   {
+      super(w, h, "Triangle");
+   }
+   public double figureArea(int w, int h)
+   {
+      area = (double)(w * h * 0.5);
+      return area;
+   }
 }
